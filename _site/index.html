@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="">
+    <link type="text/plain" rel="author" href="/humans.txt" />
+    <title>Hackfest - Hackfest</title>
+    
+    <meta name="description" content="
+    Tunisia's National Cybersecurity Competition
+    ">
+    
+    <!-- Bootstrap Core CSS -->
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/assets/css/stylish-portfolio.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="">
+      <i class="fas fa-bars"></i>
+    </a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a class="js-scroll-trigger" href="#page-top">Hackfest</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/#">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/#participate">How to participate</a>
+        </li>
+	<li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/#sponsors">Sponsors</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/#who">Organizing Committee</a>
+        </li>
+	<li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/#map">Map</a>
+        </li>
+	<li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/#directions">Directions</a>
+        </li>
+	<li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/rules/">CTF Rules</a>
+        </li>
+	<li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/conduct/">Code of Conduct</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/archive/">Archive</a>
+        </li>    
+        
+    </ul>
+</nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+    <div class="container text-center">
+      <div class="p-3 mb-4 bg-danger text-white">
+        SAVE THE DATE! Hackfest 2023 will take place on July 19, 2023. Conferences will be the day after. Stay tuned!
+      </div>
+      
+        <h1 class="text-white mb-1">Hackfest</h1>
+        <h3 class="text-white mb-5"> <!-- text-lightdark -->
+          <em>National Cybersecurity Competition</em>
+        </h3>
+        
+        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+
+
+    </div>
+    <div class="overlay"></div>
+</header>
+
+
+    <!-- About -->
+<section class="content-section bg-light" id="about">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+                <h2>Hackfest is a Capture The Flag (CTF) competition</h2>
+                <p class="lead mb-5">
+		Hackfest is an annual event of cyber security, initially hosted by the Higher School of Communication. Each year, since 2015, it gathers under the same roof specialists of cyber security, entrepreneurs and students. After its massive success in the previous editions, Hackfest is back this year in its 4th edition under the name of "RANSOMWARE : THE LEADING TREND OF BUSINESS CYBERTHREAT" on the 21st and 22nd of April at Technopark El Gazala.
+		</p>
+           </div>
+        </div>
+	
+	
+	<div class="info-content">
+	<p>The CTF consits of 2 phases. A qualification round and a final round. During qualification round contestants will compete individually to win slot for the final round.
+	Only 160 contestants will qualify for finals.Final round is multi-team hacking challenge in which teams compete independently to win prizes.
+	<br>
+	National Cyber Security CTF Competition is meant for both beginners and experienced contestants and consists of tasks ranging from simple to extremely difficult in various categories:
+	</p>
+	
+<div class="row categories-row">
+        <div class="col-lg-4">
+            
+			<span class="category">
+												<i class="fa fa-unlock-alt"></i>
+												<h4 class="">Cryptography</h4>										</span>
+            
+
+           In this category, you'll attack poorly implemented crypto, outdated crypto, or use well-known vulnerabilities to attack encrypted messages. You might be given for example a few RSA keys whose modulus share a factor, and you decrypt a message encrypted by one of these keys
+        </div>
+        <div class="col-lg-4">
+		
+	
+            <span class="category"><i class="fa fa-bug"></i>
+            <h4 class="category">Binary Exploitation</h4></span>
+
+            The program you received is running as a service on a remote machine. Reverse-engineer it, figure out its vulnerability, and use that to take exploit the remote service into serving you a flag. Often, there's a flag.txt you can get the program to read, or perhaps it has a flag in memory you need to get it to accidentally send you.
+        </div>
+        <div class="col-lg-4">
+		<span class="category">
+            <i class="fa fa-globe"></i>
+            <h4 class="category">Web Exploitation</h4></span>
+
+            These challenges involve attacking common vulnerabilities in web technology. For example, you might need to use SQL injection to read the "secret_flag" table of a database, use directory traversal to get a web server to serve you "flag.txt", use Cross-Site Scripting to trick a simulated user to send you their password, or bypass some client-side checks implemented by obfuscated javascript
+        </div>
+    </div>
+<div class="row categories-row">        
+        <div class="col-lg-4">
+		<span class="category">
+            <i class="fa fa-cog"></i>
+            <h4 class="category">Reverse Engineering</h4>
+</span>
+            In this category You'll receive a program, but not the source, so you need to disassemble it, look at the assembly, and figure out what it does. Programs can be x86 Windows, x86 Linux, ARM Linux, obfuscated Java, and a whole bevy of more obscure formats
+        </div>
+        <div class="col-lg-4">
+		<span class="category">
+            <i class="fa fa-search"></i>
+            <h4 class="category">Forensics</h4>
+</span>
+            This is a fairly broad category. You might receive an image of a disk in FAT format, and you'll need to un-delete "flag.txt". Maybe you receive a zip file, that contains a 7z file, that contains a tar archive, that contains some obscure file format you've never heard of, and unpacking the entire chain eventually gives you a flag.
+        </div>
+        <div class="col-lg-4">
+		<span class="category">
+            <i class="fa fa-tablet"></i>
+            <h4 class="category">IoT</h4>
+</span>
+            These challenges involve attacking Embedded/IoT devices. You might receive an Arduino board, and you'll need to dump and analyse a firmware. Maybe you receive a binary program, that contains memory management vulnerability, exploiting the entire flow gives you a priviliged access to read files.
+        </div>
+        
+        <div class="lg-col-2"></div>
+        <!--div class="col-lg-4">
+            <div class="category-icon" style="background-color: lightseagreen;"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span></div>
+            <h4 class="category">Hardware</h4>
+            Explore your computer at a lower level by creating and hacking hardware, from transistors all the way
+            to entire processors.  Design, simplify, and exploit circuits to retrieve the flag!
+        </div-->
+    </div>	
+	If you have any questions, email us at maroueneboubakri[at]gmail.com
+	</div>	
+    </div>
+</section>
+
+
+<!-- How to participate -->
+<section class="content-section bg-primary text-white text-center" id="participate">
+    <div class="container">
+        <div class="content-section-heading">
+            <h3 class="text-secondary mb-0">What to bring, how to compete...</h3>
+            <h2 class="mb-5">How to participate</h2>
+        </div>
+        <div class="row">
+	              <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-people"></i>
+            </span>
+                <h4>
+              <strong>Team</strong>
+            </h4>
+                <p class="text-faded mb-0">Team size is limited to <b>3</b>
+                    <i class="fas fa-heart"></i>
+                    </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-screen-desktop"></i>
+            </span>
+                <h4>
+              <strong>Laptop</strong>
+            </h4>
+                <p class="text-faded mb-0">Bring your own laptop! We also recommend you come with a smartphone,  multi-sockets, a variety of USB cables, dongles, sniffers and any of your favorite hardware gear</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-game-controller"></i>
+            </span>
+                <h4>
+              <strong>Software</strong>
+            </h4>
+                <p class="text-faded mb-0">Bring your favorite software (disassemblers, development tools, hexadecimal viewers, virtual machines, kali etc)</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="icon-feed"></i>
+            </span>
+                <h4>
+              <strong>Wifi</strong>
+            </h4>
+                <p class="text-faded mb-0">Challenges will be accessible via <b>wifi</b>. Make sure you can access wifi on your laptop.</p>
+            </div>
+        </div>
+	<br>
+	<br>
+	<a href="/rules/" class="btn btn-xl btn-light mr-4">See Details</a>
+    </div>
+</section>
+
+<!-- Sponsors -->
+<section id="sponsors">
+  <div class="container text-center">
+    <br><br>
+    <h2 class="mx-auto mb-5">Sponsors for 2023</h2>
+    <p>
+	
+
+    </p>
+	    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#">Want to sponsor Hakfest 2023? Send us an email on xxx (at) xxxx (dot) tn</a>
+
+    <br>
+    <br>
+    <h2 class="mx-auto mb-5">Partner events</h2>
+   
+    
+  </div>
+</section>
+
+<!-- Who -->
+<section class="content-section bg-primary text-white" id="who">
+    <div class="container text-center">
+      <h2 class="mb-4">Organizing committee</h2></div>
+<div class="row">
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Marouene Boubakri "@maro" - SUPCOM
+	</div>
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Chadha Sridi - SUPCOM
+	</div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Amel Rami - SUPCOM
+	</div>
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Moetez Afif - SUPCOM
+	</div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Melek Salaani "@layka__" - SUPCOM
+	</div>
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Achref Abidi - SUPCOM
+	</div>
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Roua Ben Mimoun - SUPCOM
+	</div>
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Anis Ouersighni - SUPCOM
+	</div>
+	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+	  Rami Abidi - PREPA
+	</div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Youssef Makhlouf - SUPCOM
+
+  </div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Amine Manai - SUPCOM
+    </div>
+    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Iyed Mejri - ISI
+    </div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Alaaeddine Knani
+    </div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Ayssa Berriche - INSAT
+    </div>
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Ahmed Belkahla - INSAT
+    </div>  
+  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+    Badreddine Chamkhi - ESPRIT
+    </div>       
+      </div>      
+</section>
+
+    
+<!-- Portfolio -->
+<section class="content-section" id="portfolio">
+    <div class="container">
+        <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Portfolio</h3>
+            <h2 class="mb-5">Previous editions</h2>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>2021</h2>
+                  <p class="mb-0">The sixth edition of Hackfest!</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="/images/hackfest-2021.jpg" alt="Hackfest 2021 archive">
+            </a>
+            </div>
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>2018</h2>
+                  <p class="mb-0">The fifth edition of Hackfest</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="/images/hackfest-2018.jpg" alt="Hackfest 2018 archive">
+            </a>
+            </div>
+	                <div class="col-lg-6">
+                <a class="portfolio-item" href="#">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>2017</h2>
+                  <p class="mb-0">The fourth edition of Hackfest</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="/images/hackfest-2017.jpg" alt="Hackfest 2017 archive" height="100px">
+		</a>
+			</div>
+
+			<div class="col-lg-6">
+			    <a class="portfolio-item" href="#">
+				<span class="caption">
+				    <span class="caption-content">
+					<h2>2016</h2>
+					<p class="mb-0">The third edition of Hackfest</p>
+				    </span>
+				</span>
+				<img class="img-fluid" src="/images/hackfest-2016.jpg" alt="Hackfest 2016 archive" height="100px">
+			    </a>
+			</div>
+
+      <div class="col-lg-6">
+        <a class="portfolio-item" href="#">
+      <span class="caption">
+          <span class="caption-content">
+        <h2>2015</h2>
+        <p class="mb-0">The first edition of Hackfest</p>
+          </span>
+      </span>
+      <img class="img-fluid" src="/images/hackfest-2015.jpg" alt="Hackfest 2015 archve" height="100px">
+        </a>
+    </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Call to Action -->
+<!--
+<section class="content-section bg-primary text-white">
+    <div class="container text-center">
+        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
+        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
+        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+    </div>
+</section>
+-->
+
+<!-- Map -->
+<section id="map" class="map">
+<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=10.186302959918978%2C36.89134268487277%2C10.188126862049105%2C36.892462452639656&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small>
+  <br>
+  <div class="container text-center">
+    <small>
+      <a href="https://www.openstreetmap.org/#map=19/36.89190/10.18721">View Larger Map</a></small>
+    </small>
+</div>
+
+
+</section>
+
+<!-- Venue -->
+<section class="content-section bg-primary text-white text-center" id="directions">
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+    <div class="container">
+        <ul class="list-inline mb-5">
+            <a href="https://www.facebook.com/hackfestctf">Facebook</a>&nbsp;
+            <a href="https://www.linkedin.com/company/33265494">Linkedin</a>
+            <a rel="me" href="https://github.com/hackfesttn">Github</a>
+            <!-- This doesnt work any longer TO FIX
+                 NB. Discord server no longer exists
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/hackfestctf">
+              <i class="icon-social-facebook"></i>
+            </a>
+            </li>
+            
+	    <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/company/33265494">
+		    <i class="fab fa-linkedin"></i>
+		</a>
+            </li>
+        
+            <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href=https://github.com/hackfesttn">
+              <i class="icon-social-github"></i>
+            </a>
+            </li>
+        -->
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Hackfest 2023</p>
+    </div>
+</footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="/assets/js/stylish-portfolio.min.js"></script>
+    
+</body>
+
+</html>
