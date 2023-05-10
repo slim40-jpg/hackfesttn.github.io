@@ -160,58 +160,33 @@ title: Hackfest
 <!-- Who -->
 <section class="content-section bg-primary text-white" id="who">
     <div class="container text-center">
-      <h2 class="mb-4">Organizing committee</h2></div>
-<div class="row">
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Marouene Boubakri "@maro" - SUPCOM
-	</div>
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Chadha Sridi - SUPCOM
-	</div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Amel Rami - SUPCOM
-	</div>
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Moetez Afif - SUPCOM
-	</div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Melek Salaani "@layka__" - SUPCOM
-	</div>
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Achref Abidi - SUPCOM
-	</div>
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Roua Ben Mimoun - SUPCOM
-	</div>
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Anis Ouersighni - SUPCOM
-	</div>
-	<div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-	  Rami Abidi - PREPA
-	</div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Youssef Makhlouf - SUPCOM
-
-  </div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Amine Manai - SUPCOM
+      <h2 class="mb-4">Organizing committee</h2>
     </div>
-    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Iyed Mejri - ISI
-    </div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Alaaeddine Knani
-    </div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Ayssa Berriche - INSAT
-    </div>
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Ahmed Belkahla - INSAT
-    </div>  
-  <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-    Badreddine Chamkhi - ESPRIT
-    </div>       
-      </div>      
+    <div class="row">
+    {% for member in site.data.core_team.hackfest7 %}    
+        <div class="col-md-3 col-sm-6">
+            <div class="our-team">
+                <div class="pic">
+                    <img src="/images/people/{{ member.img }}" alt=""/>
+                    <ul class="social">
+                        <li><a target="_blank" href="{{ member.facebook }}"><i class="fab fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="{{ member.github }}"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-content">
+                    <h3 class="title">{{ member.name }}</h3>
+                    <small class="post">{{ member.position }}</small>
+                </div>
+                <div class="team-layer">
+                    <a href="#">{{ member.name }}</a>
+                    <span class="post">{{ member.position }}</span>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+     </div>
 </section>
 
     
