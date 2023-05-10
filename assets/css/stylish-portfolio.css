@@ -570,4 +570,11 @@ a:hover, a:focus, a:active {
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 35px; }
 }@charset "utf-8";
-/* CSS Document */
+
+.sponsors {
+	background: white !important;
+}
+
+.sponsors img {
+	max-width: 128px !important;
+}
