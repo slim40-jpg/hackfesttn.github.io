@@ -750,6 +750,9 @@ a:hover, a:focus, a:active {
 		background-color: rgb(245, 245, 245);
 		overflow: hidden;
 	}
+	.event-list .event-img {
+		width: 170px !important;
+	}
 	.event-list > li > time,
 	.event-list > li > img {
 		width: 120px;
@@ -793,6 +796,3 @@ a:hover, a:focus, a:active {
 	}
 }
 
-.event-list .event-img {
-	width: 170px;
-}
