@@ -403,6 +403,10 @@ a:hover, a:focus, a:active {
     transition: all 0.3s ease-in-out 0s;
 }
 
+.our-team .pic {
+     height: 315px;	
+}
+
 .our-team .pic:before{
     content: "";
     background: #716a9e;

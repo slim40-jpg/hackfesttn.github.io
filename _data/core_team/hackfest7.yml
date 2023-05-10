@@ -6,7 +6,38 @@
   twitter:
   github: https://github.com/maroueneboubakri
 
-- name: Name-2
-  position: Position
-  img: TBD.jpg
-  link: hello.world@gmail.com
+- name: Chadha Sridi
+  position: Media
+  img: Chadha_Sridi.jpg
+  facbook: https://www.facebook.com/chadha.sridi.9
+  linkedin: https://www.linkedin.com/in/chadha-sridi-456b4a224/
+
+- name: Roua Ben Mimoun
+  position: Media Manager
+  img: Roua_Ben_Mimoun.jpg
+  facbook: https://www.facebook.com/roua.benmimoun?mibextid=LQQJ4d
+
+- name: Amine Manai
+  position: Human Ressources
+  img: Amine_Manai.jpg
+  facbook: https://www.facebook.com/amine.manai.29/
+  linkedin: https://www.linkedin.com/in/amine-manai-b986b324b/https://www.linkedin.com/in/amine-manai-b986b324b/
+
+- name: Anis Ouersighni
+  position: Sponsoring
+  img: Anis_Ouersighni.jpg
+  linkedin: https://www.linkedin.com/in/anis-ouersighni-cybersec
+  facebook: https://www.facebook.com/anis.wersighni.03
+
+- name: Achref ABIDI
+  position: Logistics
+  img: Achref_ABIDI.jpg
+  linkedin: https://www.linkedin.com/in/achref-abidi-pro/
+
+- name: Youssef Makhlouf 
+  position: Media
+  img: Youssef_Makhlouf.jpg
+  facebook: https://www.facebook.com/youssef.makhlouf.140
+  linkedIn: https://www.linkedin.com/in/youssef-makhlouf-608aa622a
+
+
