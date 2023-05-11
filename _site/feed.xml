@@ -1,17 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-10T22:42:12+02:00</updated><id>/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>/sponsors</id><content type="html" xml:base="/sponsors/">&lt;section class=&quot;content-section bg-light sponsors&quot; id=&quot;sponsors&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-05-11T14:39:02+02:00</updated><id>/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>/sponsors</id><content type="html" xml:base="/sponsors/">&lt;section class=&quot;content-section bg-light sponsors&quot; id=&quot;sponsors&quot;&gt;
   &lt;div class=&quot;container&quot;&gt;
 	&lt;h2&gt;Past Sponsors&lt;/h2&gt;
 &lt;p&gt;
 We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.
 &lt;/p&gt;
     &lt;div class=&quot;row&quot;&gt;
-    {% for sponsor in site.data.sponsors.past_sponsors %}    
+        
 	  &lt;div class=&quot;col&quot;&gt;
 	    &lt;div class=&quot;sponsor-logo&quot;&gt;
-	      &lt;img src=&quot;/images/sponsors/{{sponsor.logo}}&quot; class=&quot;img-fluid&quot; alt=&quot;{{sponsor.name}}&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/sifaris.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Sifaris&quot; /&gt;
 	    &lt;/div&gt;
 	  &lt;/div&gt;
-    {% endfor %}
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/cytekia.png&quot; class=&quot;img-fluid&quot; alt=&quot;Cytekia&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/ooredoo.png&quot; class=&quot;img-fluid&quot; alt=&quot;Ooredoo&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/s2t.png&quot; class=&quot;img-fluid&quot; alt=&quot;SMART TUNISIAN TECHNOPARKS&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/supcom.png&quot; class=&quot;img-fluid&quot; alt=&quot;SUPCOM&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/nextstep.png&quot; class=&quot;img-fluid&quot; alt=&quot;Next Step IT&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/ati.png&quot; class=&quot;img-fluid&quot; alt=&quot;ATI&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/satoripop.png&quot; class=&quot;img-fluid&quot; alt=&quot;Satoripop&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/poste.png&quot; class=&quot;img-fluid&quot; alt=&quot;La Poste Tunisienne&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/atb.png&quot; class=&quot;img-fluid&quot; alt=&quot;ATB&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/bna.png&quot; class=&quot;img-fluid&quot; alt=&quot;BNA&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/hat.png&quot; class=&quot;img-fluid&quot; alt=&quot;Hat Web Security&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/lpi.png&quot; class=&quot;img-fluid&quot; alt=&quot;LPI Maghreb&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/natilait.png&quot; class=&quot;img-fluid&quot; alt=&quot;Natilait&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/boga.png&quot; class=&quot;img-fluid&quot; alt=&quot;Boga&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/adsup.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Association des Diplomés de Sup&apos;Com Tunis&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/tunivisions.png&quot; class=&quot;img-fluid&quot; alt=&quot;Tunivsions&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+    
      &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><category term="2023" /><category term="sponsors" /><summary type="html">Past Sponsors We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.</summary></entry><entry><title type="html">Code of Conduct</title><link href="/conduct/" rel="alternate" type="text/html" title="Code of Conduct" /><published>2021-09-17T00:00:00+02:00</published><updated>2021-09-17T00:00:00+02:00</updated><id>/codeofconduct</id><content type="html" xml:base="/conduct/">&lt;section class=&quot;content-section bg-light&quot; id=&quot;about&quot;&gt;
@@ -109,24 +205,24 @@ Participants must comply to &lt;a href=&quot;/conduct&quot;&gt;the Code of Condu
 &lt;h2&gt;Prize Attribution&lt;/h2&gt;
 
 &lt;i&gt;This is a short explanation of how prizes are attributed.&lt;/i&gt;
-&lt;br&gt;
-&lt;br&gt;
+&lt;br /&gt;
+&lt;br /&gt;
 At the end of the CTF, on Hackfest&apos;s CTF scoreboard, the 3 teams with the highest score are identified and are entitled to a prize.
 In case the score is equal, the first team to reach the score is considered as first.
-&lt;br&gt;
+&lt;br /&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The first team is called to select 5 prizes among a pool of available prizes.&lt;/li&gt;
 &lt;li&gt;Then, the second team is called to select 5 prizes among the remaining prizes.&lt;/li&gt;
 &lt;li&gt;Finally, the third team is called to select 5 prizes among the remaining prizes.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;br&gt;
+&lt;br /&gt;
 
 Prizes at Hackfest are provided by our &lt;b&gt;sponsors&lt;/b&gt;. Many thanks to them!
-&lt;br&gt;
+&lt;br /&gt;
 In case of insufficient prizes, those rules are subject to change.
-&lt;br&gt;
-&lt;br&gt;
+&lt;br /&gt;
+&lt;br /&gt;
 
 
 &lt;/div&gt;&lt;/div&gt;
