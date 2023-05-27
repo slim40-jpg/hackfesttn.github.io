@@ -126,7 +126,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #5E406E;
+  background: #0c5f7f;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -206,7 +206,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #006072;
+  color: #0c364a;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -312,7 +312,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #006072;
+  background-color: #0c364a;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
@@ -335,8 +335,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #5E406E !important;
-  border-color: #5E406E !important;
+  background-color: #0c5f7f !important;
+  border-color: #0c5f7f !important;
   color: #fff !important;
 }
 
@@ -367,11 +367,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #006072 !important;
+  background-color: #0c364a !important;
 }
 
 .text-primary {
-  color: #006072 !important;
+  color: #0c364a !important;
 }
 
 .text-secondary {
@@ -383,7 +383,7 @@ a:hover, a:focus, a:active {
 }
 
 .category .fa {
-    color: #5E406E;
+    color: #0c5f7f;
     font-size: 38px;
 }
 
@@ -409,7 +409,7 @@ a:hover, a:focus, a:active {
 
 .our-team .pic:before{
     content: "";
-    background: #716a9e;
+    background: #299ec8;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -537,7 +537,7 @@ a:hover, a:focus, a:active {
     width: 100%;
     padding: 34px 10px;
     background: #f7f7f7;
-    border-bottom: 2px solid #716a9e;
+    border-bottom: 2px solid #299ec8;
     position: absolute;
     bottom: -50px;
     left: 0;
@@ -561,7 +561,7 @@ a:hover, a:focus, a:active {
 }
 
 .our-team .team-layer a:hover{
-    color: #716a9e;
+    color: #299ec8;
 }
 
 .our-team .post{
@@ -625,13 +625,13 @@ a:hover, a:focus, a:active {
 	display: inline-block;
 	width: 100%;
 	color: rgb(255, 255, 255);
-	background-color: #5E406E;
+	background-color: #0c5f7f;
 	padding: 5px;
 	text-align: center;
 	text-transform: uppercase;
 }
 .event-list > li:nth-child(even) > time {
-	background-color: #5E406E;
+	background-color: #0c5f7f;
 }
 .event-list > li > time > span {
 	display: none;
@@ -794,5 +794,9 @@ a:hover, a:focus, a:active {
 		width: 40px;
 		padding: 10px 0px 9px;
 	}
+}
+
+.masthead .bg-danger {
+    background-color: #299ec8!important;
 }
 
