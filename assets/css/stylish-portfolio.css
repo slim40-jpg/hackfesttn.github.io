@@ -580,7 +580,7 @@ a:hover, a:focus, a:active {
 }
 
 .sponsors img {
-    max-width: 128px !important;
+    /*max-width: 128px !important; */
 }
 
 .sponsors .sponsor-wrap {
@@ -601,7 +601,7 @@ a:hover, a:focus, a:active {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    border: 1px solid #d6eaff;  
+    /*border: 1px solid #d6eaff;*/
     overflow: hidden;
     background: #fff;
     height: 160px;
