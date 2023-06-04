@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-06-04T14:13:14+02:00</updated><id>/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>/sponsors</id><content type="html" xml:base="/sponsors/">&lt;section class=&quot;content-section bg-light sponsors&quot; id=&quot;sponsors&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-06-04T14:47:17+02:00</updated><id>/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>/sponsors</id><content type="html" xml:base="/sponsors/">&lt;section class=&quot;content-section bg-light sponsors&quot; id=&quot;sponsors&quot;&gt;
   &lt;div class=&quot;container&quot;&gt;
 	&lt;h2&gt;Past Sponsors&lt;/h2&gt;
 &lt;p&gt;
@@ -15,9 +15,10 @@ We would like to acknowledge and thank our sponsors from past editions for their
      &lt;/div&gt;
   &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><category term="2023" /><category term="sponsors" /><summary type="html">Past Sponsors We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.</summary></entry><entry><title type="html">CTF Rules</title><link href="/rules/" rel="alternate" type="text/html" title="CTF Rules" /><published>2023-01-01T00:00:00+01:00</published><updated>2023-01-01T00:00:00+01:00</updated><id>/rules</id><content type="html" xml:base="/rules/">&lt;section class=&quot;content-section bg-light&quot; id=&quot;rules&quot;&gt;
-	&lt;h2&gt;CTF Rules&lt;/h2&gt;
+&lt;div class=&quot;container&quot;&gt;
         &lt;div class=&quot;row&quot;&gt;
             &lt;div class=&quot;col-lg-10 mx-auto&quot;&gt;
+	    &lt;h2&gt;CTF Rules&lt;/h2&gt;
             This year&apos;s Hackfest has a new format. The event is divided into two stages: Quals and Finals. Qualifications will consist of a range of online security tasks that will test participants&apos; security skills in a Jeopardy style, and from this stage, only 15 finalist teams are going to compete in the Finals, which will take place on June 23rd.
 	    	    &lt;h2&gt;General rules&lt;/h2&gt;
 
@@ -61,7 +62,7 @@ are absolutely forbidden and will result in disqualification.
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Platform:&lt;/strong&gt; The platform for the online qualifiers is &lt;a href=&quot;https://ctf.hackfest.tn&quot;&gt;ctf.hackfest.tn&lt;/a&gt;. All participants must utilize the same platform and adhere to the guidelines supplied by the organizers.&lt;/li&gt;
 
-&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; The the online qualifications will be from the 10th of June 2023 at 5 PM (CEST) to  the 11th of June 2023 at 11 AM (CEST)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; The the online qualifications will be from the 10th of June 2023 at 02 PM (local time zone) to  the 11th of June 2023 at 08 AM (local time zone)&lt;/li&gt;
 
 &lt;li&gt;&lt;strong&gt;Duration:&lt;/strong&gt; The the online qualifications will be 18 hours CTF. Within this time limit, participants must complete as many tasks as possible.&lt;/li&gt;
 
@@ -118,6 +119,7 @@ are absolutely forbidden and will result in disqualification.
 &lt;/ol&gt;
 
 
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><category term="2023" /><category term="rules" /><summary type="html">CTF Rules This year&apos;s Hackfest has a new format. The event is divided into two stages: Quals and Finals. Qualifications will consist of a range of online security tasks that will test participants&apos; security skills in a Jeopardy style, and from this stage, only 15 finalist teams are going to compete in the Finals, which will take place on June 23rd. General rules</summary></entry><entry><title type="html">Code of Conduct</title><link href="/conduct/" rel="alternate" type="text/html" title="Code of Conduct" /><published>2021-09-17T00:00:00+02:00</published><updated>2021-09-17T00:00:00+02:00</updated><id>/codeofconduct</id><content type="html" xml:base="/conduct/">&lt;section class=&quot;content-section bg-light&quot; id=&quot;about&quot;&gt;
