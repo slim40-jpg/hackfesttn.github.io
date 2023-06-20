@@ -1,17 +1,46 @@
 <header class="masthead d-flex">
-    <div class="container text-center">
-      <div class="p-3 mb-4 bg-danger text-white">
-        Mark your calendars! Hackfest 2023 is scheduled for June 23, 2023, at Elghazela Technopark. Stay tuned!
-      </div>
-      
-        <h1 class="text-white mb-1">Hackfest</h1>
-        <h3 class="text-white mb-5"> <!-- text-lightdark -->
-          <em>National Cybersecurity Competition</em>
-        </h3>
-        
-        <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-
-
+  <div class="container text-center">
+    <div class="p-3 mb-4 bg-danger text-white">
+      Mark your calendars! Hackfest 2023 is scheduled for June 23, 2023, at Elghazela Technopark. Stay tuned!
     </div>
-    <div class="overlay"></div>
+
+    <h1 class="text-white mb-1">Hackfest</h1>
+    <h3 class="text-white mb-5">
+      <!-- text-lightdark -->
+      <em>National Cybersecurity Competition</em>
+    </h3>
+
+    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+
+
+
+    <div class="p-1 mt-1">
+      <!-- Noscript content for added SEO -->
+      <noscript><a href="https://www.eventbrite.com/e/hackfest-tickets-662466915377" rel="noopener noreferrer"
+          target="_blank">Get Your Free Ticket on Eventbrite</a></noscript>
+      <!-- You can customize this button any way you like -->
+      <button id="eventbrite-widget-modal-trigger-662466915377" type="button"
+        class="btn btn-dark btn-xl">Register</button>
+    </div>
+
+
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+    <script type="text/javascript">
+      var exampleCallback = function () {
+        console.log('Order complete!');
+      };
+
+      window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '662466915377',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-662466915377',
+        onOrderComplete: exampleCallback
+      });
+    </script>
+
+
+  </div>
+  <div class="overlay"></div>
 </header>
