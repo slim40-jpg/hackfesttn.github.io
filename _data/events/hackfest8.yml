@@ -1,0 +1,65 @@
+- title: CTF Qualification Round
+  description: The CTF Qualification Round is an online event lasting 18 hours, where registered players compete to solve challenges across various categories. Top 60 contestants proceed to the Final Round.
+  location: Online
+  day: 23
+  month: MAR
+  year: 2024
+  time: ALL DAY
+  img: quals.jpg
+  fee: FREE
+  link: https://ctf.hackfest.tn
+
+- title: CTF Final Round
+  description: The CTF Final Round is a 12-hour on-site competition where selected contestants compete in teams. Held overnight, the competition fosters a distraction-free environment for hackers to focus and collaborate.
+  location: ElGazala Technopark
+  day: 20
+  month: APR
+  year: 2024
+  time: NIGHT
+  img: finals.jpg
+  fee: TBD
+  link: 
+
+- title: Conferences and keynotes
+  description: This year's edition will feature multiple conferences and keynotes in the theme of Cloud security, you can visit our [Facebook page](https://www.facebook.com/hackfestctf) to learn more about our speakers
+  location: ElGazala Technopark
+  day: 20
+  month: APR
+  year: 2024
+  time: Day
+  img: conf.JPG
+  fee: FREE
+  link: 
+
+- title: IOT hacking Challenges
+  description: Conquer cybersecurity challenges, from analyzing Arduino firmware to exploiting binary program vulnerabilities. Join teams, outsmart opponents, and showcase your hacking skills in this thrilling competition!
+  location: ElGazala Technopark
+  day: 20
+  month: APR
+  year: 2024
+  time: Day
+  img: iot-hack.jpg
+  fee: FREE
+  link: 
+
+- title: Pwny Race
+  description: Unleash your hacking skills in a series of challenges. Join teams, solve the most, and emerge victorious in this thrilling cybersecurity competition!
+  location: ElGazala Technopark
+  day: 20
+  month: APR
+  year: 2024
+  time: Day
+  img: pwn.jpg
+  fee: FREE
+  link: 
+
+- title: Crypto Kids Workshop
+  description: Explore secret codes and ciphers in a fun, interactive setting! Ignite curiosity with our engaging cryptography session for kids.
+  location: ElGazala Technopark
+  day: 20
+  month: APR
+  year: 2024
+  time: Day
+  img: junior-crypto.jpg
+  fee: FREE
+  link: 
