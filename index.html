@@ -39,10 +39,8 @@ title: Hackfest | National Cybersecurity Competition
           </span>
 
 
-          In this category, you'll attack poorly implemented crypto, outdated crypto, or use well-known
-          vulnerabilities
-          to attack encrypted messages. You might be given for example a few RSA keys whose modulus share a factor,
-          and
+          In this category, you'll attack poorly implemented crypto, outdated crypto, or use well-known vulnerabilities
+          to attack encrypted messages. You might be given for example a few RSA keys whose modulus share a factor, and
           you decrypt a message encrypted by one of these keys
         </div>
         <div class="col-lg-4">
@@ -76,8 +74,7 @@ title: Hackfest | National Cybersecurity Competition
             <h4 class="category">Reverse Engineering</h4>
           </span>
           In this category You'll receive a program, but not the source, so you need to disassemble it, look at the
-          assembly, and figure out what it does. Programs can be x86 Windows, x86 Linux, ARM Linux, obfuscated Java,
-          and
+          assembly, and figure out what it does. Programs can be x86 Windows, x86 Linux, ARM Linux, obfuscated Java, and
           a whole bevy of more obscure formats
         </div>
         <div class="col-lg-4">
@@ -114,7 +111,7 @@ title: Hackfest | National Cybersecurity Competition
       <br />
       <br />
     </div>
-    <a href="https://ctf.hackfest.tn" class="btn btn-xl btn-dark mr-4">Join the challenge</a>
+    <a href="/closed.html" class="btn btn-xl btn-dark mr-4">Join the challenge</a>
   </div>
 </section>
 
@@ -262,10 +259,11 @@ title: Hackfest | National Cybersecurity Competition
             <div class="info">
               <h2 class="title">{{ event.title }}</h2>
               <p class="desc">{{ event.description }}</p>
-              <ul>
-                <li style="width:50%;"><a href="{{ event.link }}"><span class="fas fa-map-marker-alt"></span> {{
+              <ul style="align-items: end;">
+                <li style="width:20rem;" class="event-location"><a href="{{ event.link }}"><span
+                      class="fas fa-map-marker-alt"></span> {{
                     event.location }}</a></li>
-                <li style="width:50%;"><span class="fab fa-money"></span> {{ event.fee }}</li>
+                <li style="width:5rem;"><span class="fab fa-money"></span> {{ event.fee }}</li>
               </ul>
             </div>
             <div class="social">
@@ -423,95 +421,37 @@ title: Hackfest | National Cybersecurity Competition
     <h2 class="mb-4">Organizing committee</h2>
     <!----------------------------------------------Managers---------------------------------------------------->
     <h3 class="mb-4">Managers</h3>
-    <div id="carouselExample" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-
-
-        <!-- Loop specifically for the first four members -->
-
-        <div class="carousel-item active ">
-          <div class="card-deck">
-
-            {% assign members = site.data.core_team.hackfest8 %}
-            {% for i in (0..3) %}
-            {% assign member = members[i] %}
-
-            <div class="card our-team">
-              <div class="pic">
-                <img src="/images/people/{{ member.img }}" alt="" />
-                <ul class="social">
-                  <li><a target="_blank" href="{{ member.facebook }}"><i class="fab fa-facebook"></i></a></li>
-                  <li><a target="_blank" href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a></li>
-                  <li><a target="_blank" href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
-                  <li><a target="_blank" href="{{ member.github }}"><i class="fab fa-github"></i></a></li>
-                </ul>
-              </div>
-              <div class="team-content">
-                <h3 class="title">{{ member.name }}</h3>
-                <small class="post">{{ member.position }}</small>
-              </div>
-              <div class="team-layer">
-                <a href="#">{{ member.name }}</a>
-                <span class="post">{{ member.position }}</span>
-              </div>
-            </div>
-
-            {% endfor %}
-
-          </div>
+    <div class="row">
+      {% for member in site.data.core_team.hackfest8 %}
+      <div class="col-md-3 col-sm-6">
+        <div class="our-team">
+          <div class="pic" ">
+            <img src=" /images/people/{{ member.img }}" alt="" />
+          <ul class="social">
+            <li><a target="_blank" href="{{ member.facebook }}"><i class="fab fa-facebook"></i></a></li>
+            <li><a target="_blank" href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a></li>
+            <li><a target="_blank" href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
+            <li><a target="_blank" href="{{ member.github }}"><i class="fab fa-github"></i></a></li>
+          </ul>
         </div>
-
-        <div class="carousel-item">
-          <div class="card-deck">
-
-            {% assign members = site.data.core_team.hackfest8 %}
-            {% for i in (4..7) %}
-            {% assign member = members[i] %}
-
-            <div class="card our-team">
-              <div class="pic">
-                <img src="/images/people/{{ member.img }}" alt="" />
-                <ul class="social">
-                  <li><a target="_blank" href="{{ member.facebook }}"><i class="fab fa-facebook"></i></a></li>
-                  <li><a target="_blank" href="{{ member.twitter }}"><i class="fab fa-twitter"></i></a></li>
-                  <li><a target="_blank" href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
-                  <li><a target="_blank" href="{{ member.github }}"><i class="fab fa-github"></i></a></li>
-                </ul>
-              </div>
-              <div class="team-content">
-                <h3 class="title">{{ member.name }}</h3>
-                <small class="post">{{ member.position }}</small>
-              </div>
-              <div class="team-layer">
-                <a href="#">{{ member.name }}</a>
-                <span class="post">{{ member.position }}</span>
-              </div>
-            </div>
-
-            {% endfor %}
-
-          </div>
+        <div class="team-content">
+          <h3 class="title">{{ member.name }}</h3>
+          <small class="post">{{ member.position }}</small>
         </div>
-
-
-
+        <div class="team-layer">
+          <a href="#">{{ member.name }}</a>
+          <span class="post">{{ member.position }}</span>
+        </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
+    {% endfor %}
+  </div>
 
 
 
 
 
   </div>
-
 </section>
 
 
@@ -525,7 +465,7 @@ title: Hackfest | National Cybersecurity Competition
     <div class="row no-gutters">
 
       <div class="col-lg-6">
-        <a class="portfolio-item" href="https://www.facebook.com/photo/?fbid=637315128428456&set=a.544959007664069">
+        <a class="portfolio-item" href="https://fb.watch/pHl7LZEGnf/">
           <span class="caption">
             <span class="caption-content">
               <h2>2023</h2>
@@ -536,7 +476,7 @@ title: Hackfest | National Cybersecurity Competition
         </a>
       </div>
       <div class="col-lg-6">
-        <a class="portfolio-item" href="https://www.facebook.com/hackfestctf/videos/3737074783186306">
+        <a class="portfolio-item" href="#">
           <span class="caption">
             <span class="caption-content">
               <h2>2021</h2>
@@ -592,6 +532,8 @@ title: Hackfest | National Cybersecurity Competition
           <img class="img-fluid" src="/images/hackfest-2015.jpg" alt="Hackfest 2015 archve">
         </a>
       </div>
+
+
 
 
 
