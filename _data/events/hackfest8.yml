@@ -20,8 +20,8 @@
   fee: TBD
   link: 
 
-- title: Conferences and keynotes
-  description: This year's edition will feature multiple conferences and keynotes in the theme of Cloud security, you can visit our [Facebook page](https://www.facebook.com/hackfestctf) to learn more about our speakers
+- title: Conferences and Workshops
+  description: This year's edition will feature multiple conferences and  in the theme of Cloud security, you can visit our Facebook page to learn more about our speakers.
   location: ElGazala Technopark
   day: 20
   month: APR
@@ -42,16 +42,6 @@
   fee: FREE
   link: 
 
-- title: Pwny Race
-  description: Unleash your hacking skills in a series of challenges. Join teams, solve the most, and emerge victorious in this thrilling cybersecurity competition!
-  location: ElGazala Technopark
-  day: 20
-  month: APR
-  year: 2024
-  time: Day
-  img: pwn.jpg
-  fee: FREE
-  link: 
 
 - title: Crypto Kids Workshop
   description: Explore secret codes and ciphers in a fun, interactive setting! Ignite curiosity with our engaging cryptography session for kids.

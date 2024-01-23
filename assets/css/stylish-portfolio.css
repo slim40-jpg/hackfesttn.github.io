@@ -286,6 +286,12 @@ h6 {
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+
+}
+
+.portfolio-item img {
+  height: 20rem;
+  width: 100%;
 }
 
 .portfolio-item .caption {
@@ -455,12 +461,14 @@ a:active {
   margin-bottom: 100px;
 }
 
+card,
 .our-team {
   box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.15);
   text-align: center;
   overflow: hidden;
   position: relative;
   transition: all 0.3s ease-in-out 0s;
+  max-width: 15rem;
 }
 
 .our-team .pic {
@@ -486,7 +494,7 @@ a:active {
 
 .our-team .pic img {
   width: 100%;
-  height: auto;
+  height: 95%;
 }
 
 .our-team .social {
@@ -898,4 +906,13 @@ a:active {
 .masthead .bg-danger {
   background-color: rgba(11, 58, 75, 0.8) !important;
   margin-bottom: 6rem;
+}
+
+.program-header {
+  text-align: left;
+}
+
+
+.event-location {
+  margin-left: 5%;
 }
