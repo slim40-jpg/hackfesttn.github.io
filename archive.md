@@ -10,6 +10,9 @@ permalink: /archive/
 	 <h2>Past editions of Hackfest</h2>
          <ul>
             <li class="sidebar-nav-item">
+               <a class="js-scroll-trigger" href="{{ site.baseurl }}/v8">Hackfest'8</a>
+            </li>
+            <li class="sidebar-nav-item">
                <a class="js-scroll-trigger" href="{{ site.baseurl }}/hackfest7.html">Hackfest'7</a>
             </li>
          </ul>
