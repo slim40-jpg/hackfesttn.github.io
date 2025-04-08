@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="">
+  <link type="text/plain" rel="author" href="/v7/humans.txt" />
+
+  <title>CTF Rules - Hackfest
+  </title>
+  
+  <meta name="description" content="
+  Tunisia's National Cybersecurity Competition
+  ">
+  
+  <!-- Bootstrap Core CSS -->
+  <link href="/v7/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="/v7/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css">
+  <link href="/v7/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/v7/assets/css/stylish-portfolio.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Kanit:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="http://localhost:4000">
+    <i class="fas fa-bars"></i>
+</a>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a class="js-scroll-trigger" href="#page-top">Hackfest</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/#">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/#host">Host</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/#participate">How to participate</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/#sponsors">Sponsors</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/#who">Organizing Committee</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/#map">Map</a>
+        </li>
+
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/rules/">CTF Rules</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/conduct/">Code of Conduct</a>
+        </li>
+        <li class="sidebar-nav-item">
+            <a class="js-scroll-trigger" href="/v7/archive/">Hackfest'7</a>
+        </li>
+
+    </ul>
+</nav>
+  <!-- Header -->
+  <header class="masthead d-flex">
+
+  <div class="container text-center masthead-content">
+    <div class="p-3  bg-danger text-white">
+      Mark your calendars! Hackfest 2024 is scheduled for April 20th, 2024, at Elghazela Technopark. Stay tuned!
+    </div>
+
+    <h1 class="text-white mb-1" style="font-family: 'DotGothic16', sans-serif; ">Hackfest</h1>
+    <h3 class="text-white mb-5">
+      <!-- text-lightdark -->
+      <em style="font-style: normal;">National Cybersecurity Competition</em>
+    </h3>
+    <div class="p-1 mt-1">
+      <button class="btn btn-dark btn-md js-scroll-trigger " type="button" onclick="window.location.href='#about'">Find
+        Out More</button>
+    </div>
+    <div class="p-1 mt-1">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScSNnFuIo9sKHW_UI49e_3Gohog1bYiTLNSARyu7Ma5fClNlw/viewform?fbclid=IwAR0wj4TuDtPzHYoXhx12IvsfPJZQgeEic6UkiWqabdjvJ8xyZMUgC8eGeL4">
+        <button id="eventbrite-widget-modal-trigger-662466915377" type="button"
+          class="btn btn-dark btn-md w-10">Register</button></a>
+    </div>
+  </div>
+
+  <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+  <script type="text/javascript">
+    var exampleCallback = function () {
+      console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+      widgetType: 'checkout',
+      eventId: '662466915377',
+      modal: true,
+      modalTriggerElementId: 'eventbrite-widget-modal-trigger-662466915377',
+      onOrderComplete: exampleCallback
+    });
+  </script>
+
+
+  </div>
+  <div class="overlay"></div>
+</header>
+
+
+  <section class="content-section bg-light" id="rules">
+<div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+	    <h2>CTF Rules</h2>
+            This year's Hackfest has a new format. The event is divided into two stages: Quals and Finals. Qualifications will consist of a range of online security tasks that will test participants' security skills in a Jeopardy style, and from this stage, only 15 finalist teams are going to compete in the Finals, which will take place on June 23rd.
+	    	    <h2>General rules</h2>
+
+<ol>
+<li><strong>Eligibility and Team size</strong> The competition is open to Tunisian teams (composed of only Tunisian persons), who are interested in participating. Each team must have, at least 2 members, and at max 4 members. Each participant must belong to one and only team. All participants must have individuals accounts.</li>
+
+<li><strong>Registration</strong> All participants must register before the start of the competition. Registration should include team name, the full names of all team members, their pseudos, valid phone numbers and valid email addresses. Participants will not be allowed to update their registration informations and any wanted modification should be contacted to the organizers. The organizers reserve the right to verify the authenticity of the information provided and to disqualify any team or participant that provides false or misleading information, inappropriate names or offensive names. </li>
+
+<li><strong>Fair Play</strong> During the tournament, participants are required to behave in a fair and sportsmanlike way at all times. Players are not permitted to attack or disrupt the platform, servers, or the systems of other competitors:
+
+<ul>
+<li>Attacking any machine other than the designated ones,</li>
+<li>DoS Hackfest CTF infrastructure or University,</li>
+<li>Modifying the scoreboard,</li>
+<li>Preventing other teams from flagging intentionally,</li>
+<li>And other forms of misconduct...</li>
+</ul>
+
+are absolutely forbidden and will result in disqualification.
+</li>
+
+<li><strong>Rules</strong> All competitors must follow the competition regulations and comply to <a href="/v7/conduct">The Code of Conduct</a>. Rules modifications will be disclosed in a timely and clear way.</li>
+
+<li><strong>Flag Hoarding:</strong> Participants are not permitted to hoard flags (holding flags unsubmitted for a lengthy period of time or for the very end of the competition). Teams caught hoarding flags may be penalized or disqualified at the organizers' discretion. Flags should be submitted as soon as they are obtained.</li>
+
+<li><strong>Scoring</strong> Points are awarded for solving tasks within the time limit. The winner will be determined by the top three teams with the highest score at the end of the competition. The time of flag submission will be taken into account in order to limit the podium to three winning teams. Each task will be evaluated dynamically; the more it is flagged, the fewer points it will receive. All tasks will start at 500 points and decrease in value with each solution.</li>
+
+<li><strong>Time Limit</strong> There will be a time limit for the tournament, and all flags must be submitted within that time range. Any contributions received after the deadline will be rejected.</li>
+
+<li><strong>Collaboration</strong> Participants may cooperate with their colleagues, but they may not work with other teams. Disqualification will come from sharing flags or coordinating with other teams.</li>
+
+<li><strong>Disqualification</strong> The organizers reserve the right to disqualify any individual or team for any reason they see fit. This includes, but is not limited to, cheating, misbehavior, or breaching the competition's regulations.</li>
+
+<li><strong>Prizes:</strong> The organizers will give prizes to the Finals winning teams as well as any other teams that satisfy certain conditions, such as finishing a particular number of tasks or attaining a certain score. The precise awards and criteria will be notified to participants in advance.</li>
+
+<li><strong>Privacy</strong> Personal information provided by participants will be kept strictly secret and will not be shared with any third parties. The organizers may, however, utilize the identities of participants and team names for publicity reasons.</li>
+</ol>
+
+<h2>Online Qualifications:</h2>
+
+<ol>
+<li><strong>Platform:</strong> The platform for the online qualifiers is <a href="https://ctf.hackfest.tn">ctf.hackfest.tn</a>. All participants must utilize the same platform and adhere to the guidelines supplied by the organizers.</li>
+
+<li><strong>Time:</strong> The the online qualifications will be from the 10th of June 2023 at 02 PM (local time zone) to  the 11th of June 2023 at 08 AM (local time zone)</li>
+
+<li><strong>Duration:</strong> The the online qualifications will be 18 hours CTF. Within this time limit, participants must complete as many tasks as possible.</li>
+
+<li><strong>Qualification Verification</strong>In order to participate in the final round, qualifying alone does not constitute confirmation to attend. The organizers reserve the right to approve or disapprove participation in the finals, regardless of qualifying status.</li>
+
+<li><strong>Internet Connectivity:</strong> Participants are responsible for having a reliable internet connection and dealing with any technological difficulties that emerge during the tournament. The organizers shall not be held responsible for any technological difficulties encountered by participants' ends.</li>
+</ol>
+
+<h2>Onsite Finals:</h2>
+
+<ol>
+<li><strong>Location:</strong> The onsite finals will take place in <a href="/v7/#map">El Ghazala Technopark</a>. Please follow the <a href="/v7/#directions">directions</a> to get to the event location. All competitors have to be physically present. Any specific instructions will be communicated to the qualifying teams beforehand.</li>
+
+<li><strong>Time:</strong> The the online qualifications will be from the 23rd of June 2023 at 7 PM (CEST) to the 24th of June 2023 at 7 AM (CEST)</li>
+
+<li><strong>Duration:</strong> The onsite finals will last 12 hours. Within this time limit, participants must complete as many tasks as possible.</li>
+
+<li><strong>Equipment:</strong> Participants should come with:
+<ul>
+<li>A computer and its power cord, including power adapters if necessary</li>
+<li>A variety of USB cables, including USB to Micro USB cable</li>
+<li>A multiplug outlet</li>
+<li>A smartphone (optional, but recommended)</li>
+<li>Bluetooth dongle (if not supported by laptop)</li>
+<li>Wifi dongle (if not supported by laptop)</li>
+<li>Bus Pirate, or Hydrabus (optional, but recommended)</li>
+<li>Soldering iron (optional, but recommended)</li>
+</ul>
+</li>
+
+<li><strong>Accommodation and Transportation:</strong> Accommodation during the onsite finals and transportation expenses is not covered by the event.</li>
+
+<li><strong>Food and Drink:</strong> The organizers may supply food and drink during the onsite finals, however this is not guaranteed and may incur extra fees. Participants may bring their own food and drinks, but any consumption must not interfere with the competition or other participants, and they must keep the area clean; any found misbehavior may result in disqualification.</li>
+
+<li><strong>Dress Code:</strong> The competition requires that participants dress suitably. The organizers may impose a dress code, and competitors who do not follow it may be refused access to the tournament.</li>
+
+<li><strong>Security:</strong> Participants must follow any security measures implemented by the organizers, such as security checks or bags inspections. Weapons and illicit substances, for example, will not be permitted within the tournament location.</li>
+
+<li><strong>Access to Information:</strong> During the onsite finals, participants may be given access to certain information or resources. Participants are only permitted to use this information for the purposes of the competition and are not permitted to share it with anyone outside of their team.</li>
+
+<li><strong>Liability:</strong> During the onsite finals, participants are responsible for their own safety and well-being. The organizers assume no responsibility for any injuries, accidents, or damages that occur during the tournament.</li>
+</ol>
+
+<h3>Challenges Format:</h3>
+
+<ol>
+<li><strong>Jeopardy Format:</strong> Both the online qualifying and the onsite finals will have jeopardy-style tasks. This implies that each task will be allocated a point value, and teams will receive points for completing each challenge successfully.</li>
+
+<li><strong>Challenge Categories:</strong> The challenges will be divided into different categories, which may include but are not limited to cryptography, reverse engineering, web exploitation, binary exploitation, digital forensics, miscellaneous. The exact categories and number of challenges in each category will be communicated to the participants beforehand.</li>
+
+<li><strong>Challenge Difficulty:</strong> The challenges will be designed to be progressively more difficult: Easy, Medium, Hard.</li>
+
+<li><strong>Team Rankings:</strong> Teams will be ranked according to their total point total. If there is a tie, the team that completed the challenges in the first time will be ranked higher.</li>
+</ol>
+
+
+</div>
+</div>
+</div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-lg-start text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row my-4">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+        <div
+          class="rounded-circle bg-dark shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+          style="width: 150px; height: 150px;">
+          <img src="/images/logo-white.png" height="170" alt="" />
+        </div>
+
+        <p class="text-center">National Cyber Security Competition</p>
+
+        <ul class="list-unstyled d-flex flex-row justify-content-center">
+          <li>
+            <a class="text-white px-2" href="https://www.facebook.com/hackfestctf">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white px-2" href="https://www.instagram.com/hackfesttn/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white px-2" href="https://github.com/hackfesttn">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white px-2" href="https://twitter.com/hackfestctf">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="text-white ps-2" href="https://www.youtube.com/@hackfest9032">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Videos</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="https://fb.watch/pHlgZbDpRl/" class="text-white"><i class="fas fa-play pe-3"></i> Teaser
+              2023</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.youtube.com/watch?v=WQKOEWv8ioo" class="text-white"><i class="fas fa-play pe-3"></i>
+              Teaser 2021</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.youtube.com/watch?v=IY32nNwUOd0" class="text-white"><i class="fas fa-play pe-3"></i>
+              Teaser 2020</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.youtube.com/watch?v=Bd9_--ZidKQ" class="text-white"><i class="fas fa-play pe-3"></i>
+              Teaser 2018</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.youtube.com/watch?v=LEb93QijRWs" class="text-white"><i class="fas fa-play pe-3"></i>
+              Teaser 2017</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.youtube.com/watch?v=Q-mM3UVXdK4" class="text-white"><i class="fas fa-play pe-3"></i>
+              Teaser 2016</a>
+          </li>
+          <li class="mb-2">
+            <a href="https://www.youtube.com/watch?v=iGb0wm622Rw" class="text-white"><i class="fas fa-play pe-3"></i>
+              Teaser 2015</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Quick Links</h5>
+
+        <ul class="list-unstyled">
+          <li class="mb-2">
+            <a href="http://www.supcom.mincom.tn/" class="text-white"><i class="fas fa-link pe-3"></i> SUP'COM</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Contact</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p><i class="fas fa-map-marker-alt pe-2"></i> ElGazala Technopark, Tunisia</p>
+          </li>
+          <li>
+            <p><i class="fas fa-phone pe-2"></i> +216 99 283 600</p>
+          </li>
+          <li>
+            <p><i class="fas fa-envelope pe-2 mb-0"></i> contact@hackfest.tn</p>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2024 Copyright:
+    <a class="text-white" href="/v7/">hackfest.tn</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <!-- Bootstrap core JavaScript -->
+  <script src="/vendor/jquery/jquery.min.js"></script>
+  <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="/assets/js/stylish-portfolio.min.js"></script>
+  
+</body>
+
+</html>
