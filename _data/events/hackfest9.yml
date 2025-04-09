@@ -1,0 +1,42 @@
+- title: CTF
+  description: The CTF is a 12-hour on-site competition where selected contestants compete in teams. Held overnight, the competition fosters a distraction-free environment for hackers to focus and collaborate.
+  location: ElGazala Technopark
+  day: 30th April - 1 Mai
+  month: APR-MAI
+  year: 2025
+  time: NIGHT
+  img: finals.jpg
+  fee: TBD
+  link:
+
+- title: Conferences and Workshops
+  description: This year's edition will feature multiple conferences and  in the theme of Cloud security, you can visit our Facebook page to learn more about our speakers.
+  location: ElGazala Technopark
+  day: 30th April
+  month: APR
+  year: 2025
+  time: Day
+  img: conf.JPG
+  fee: FREE
+  link:
+# - title: IOT hacking Challenges
+#  description: Conquer cybersecurity challenges, from analyzing Arduino firmware to exploiting binary program vulnerabilities. Join teams, outsmart opponents, and showcase your hacking skills in this thrilling competition!
+#  location: ElGazala Technopark
+#  day: 20
+#  month: APR
+#  year: 2024
+#  time: Day
+#  img: iot-hack.jpg
+#  fee: FREE
+#  link:
+
+#- title: Crypto Kids Workshop
+#  description: Explore secret codes and ciphers in a fun, interactive setting! Ignite curiosity with our engaging cryptography session for kids.
+#  location: ElGazala Technopark
+#  day: 20
+#  month: APR
+#  year: 2024
+#  time: Day
+#  img: junior-crypto.jpg
+#  fee: FREE
+#  link:

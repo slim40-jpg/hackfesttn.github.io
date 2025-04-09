@@ -22,7 +22,7 @@ keywords: CTF, hackfest, tunisia, security
 #baseurl: "https://hackfesttn.github.io" # the subpath of your site, e.g. /blog
 #url: "https://hackfesttn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  hackfesttn
+github_username: hackfesttn
 # Build settings
 markdown: kramdown
 theme: minima
@@ -42,4 +42,8 @@ incremental: true
 #   - vendor/gems/
 #   - vendor/ruby/
 
-include: ['.htaccess']
+include: [".htaccess"]
+---
+registration_open_date: 2025-04-21 # Change to your desired date
+---
+

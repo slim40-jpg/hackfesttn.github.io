@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2025-04-08T18:58:07+02:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Hackfest</title><subtitle>Tunisia&apos;s National Cybersecurity Competition</subtitle><entry><title type="html">Sponsors</title><link href="http://0.0.0.0:4000/sponsors/" rel="alternate" type="text/html" title="Sponsors" /><published>2023-05-09T00:00:00+02:00</published><updated>2023-05-09T00:00:00+02:00</updated><id>http://0.0.0.0:4000/sponsors</id><content type="html" xml:base="http://0.0.0.0:4000/sponsors/">&lt;section class=&quot;content-section bg-light sponsors&quot; id=&quot;sponsors&quot;&gt;
+  &lt;div class=&quot;container&quot;&gt;
+	&lt;h2&gt;Past Sponsors&lt;/h2&gt;
+&lt;p&gt;
+We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.
+&lt;/p&gt;
+    &lt;div class=&quot;row&quot;&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/sifaris.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Sifaris&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/cytekia.png&quot; class=&quot;img-fluid&quot; alt=&quot;Cytekia&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/ooredoo.png&quot; class=&quot;img-fluid&quot; alt=&quot;Ooredoo&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/s2t.png&quot; class=&quot;img-fluid&quot; alt=&quot;SMART TUNISIAN TECHNOPARKS&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/supcom.png&quot; class=&quot;img-fluid&quot; alt=&quot;SUPCOM&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/nextstep.png&quot; class=&quot;img-fluid&quot; alt=&quot;Next Step IT&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/ati.png&quot; class=&quot;img-fluid&quot; alt=&quot;ATI&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/satoripop.png&quot; class=&quot;img-fluid&quot; alt=&quot;Satoripop&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/poste.png&quot; class=&quot;img-fluid&quot; alt=&quot;La Poste Tunisienne&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/atb.png&quot; class=&quot;img-fluid&quot; alt=&quot;ATB&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/bna.png&quot; class=&quot;img-fluid&quot; alt=&quot;BNA&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/hat.png&quot; class=&quot;img-fluid&quot; alt=&quot;Hat Web Security&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/lpi.png&quot; class=&quot;img-fluid&quot; alt=&quot;LPI Maghreb&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/natilait.png&quot; class=&quot;img-fluid&quot; alt=&quot;Natilait&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/boga.png&quot; class=&quot;img-fluid&quot; alt=&quot;Boga&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/adsup.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Association des Diplomés de Sup&apos;Com Tunis&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+        
+	  &lt;div class=&quot;col-md-3&quot;&gt;
+	    &lt;div class=&quot;sponsor-logo&quot;&gt;
+	      &lt;img src=&quot;/images/sponsors/tunivisions.png&quot; class=&quot;img-fluid&quot; alt=&quot;Tunivsions&quot; /&gt;
+	    &lt;/div&gt;
+	  &lt;/div&gt;
+    
+     &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><category term="2023" /><category term="sponsors" /><summary type="html">Past Sponsors We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.</summary></entry><entry><title type="html">CTF Rules</title><link href="http://0.0.0.0:4000/rules/" rel="alternate" type="text/html" title="CTF Rules" /><published>2023-01-01T00:00:00+01:00</published><updated>2023-01-01T00:00:00+01:00</updated><id>http://0.0.0.0:4000/rules</id><content type="html" xml:base="http://0.0.0.0:4000/rules/">&lt;section class=&quot;content-section bg-light&quot; id=&quot;rules&quot;&gt;
+&lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-lg-10 mx-auto&quot;&gt;
+	    &lt;h2&gt;CTF Rules&lt;/h2&gt;
+            This year&apos;s Hackfest has a new format. The event is divided into two stages: Quals and Finals. Qualifications will consist of a range of online security tasks that will test participants&apos; security skills in a Jeopardy style, and from this stage, only 15 finalist teams are going to compete in the Finals, which will take place on June 23rd.
+	    	    &lt;h2&gt;General rules&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Eligibility and Team size&lt;/strong&gt; The competition is open to Tunisian teams (composed of only Tunisian persons), who are interested in participating. Each team must have, at least 2 members, and at max 4 members. Each participant must belong to one and only team. All participants must have individuals accounts.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Registration&lt;/strong&gt; All participants must register before the start of the competition. Registration should include team name, the full names of all team members, their pseudos, valid phone numbers and valid email addresses. Participants will not be allowed to update their registration informations and any wanted modification should be contacted to the organizers. The organizers reserve the right to verify the authenticity of the information provided and to disqualify any team or participant that provides false or misleading information, inappropriate names or offensive names. &lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Fair Play&lt;/strong&gt; During the tournament, participants are required to behave in a fair and sportsmanlike way at all times. Players are not permitted to attack or disrupt the platform, servers, or the systems of other competitors:
+
+&lt;ul&gt;
+&lt;li&gt;Attacking any machine other than the designated ones,&lt;/li&gt;
+&lt;li&gt;DoS Hackfest CTF infrastructure or University,&lt;/li&gt;
+&lt;li&gt;Modifying the scoreboard,&lt;/li&gt;
+&lt;li&gt;Preventing other teams from flagging intentionally,&lt;/li&gt;
+&lt;li&gt;And other forms of misconduct...&lt;/li&gt;
+&lt;/ul&gt;
+
+are absolutely forbidden and will result in disqualification.
+&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Rules&lt;/strong&gt; All competitors must follow the competition regulations and comply to &lt;a href=&quot;/conduct&quot;&gt;The Code of Conduct&lt;/a&gt;. Rules modifications will be disclosed in a timely and clear way.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Flag Hoarding:&lt;/strong&gt; Participants are not permitted to hoard flags (holding flags unsubmitted for a lengthy period of time or for the very end of the competition). Teams caught hoarding flags may be penalized or disqualified at the organizers&apos; discretion. Flags should be submitted as soon as they are obtained.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Scoring&lt;/strong&gt; Points are awarded for solving tasks within the time limit. The winner will be determined by the top three teams with the highest score at the end of the competition. The time of flag submission will be taken into account in order to limit the podium to three winning teams. Each task will be evaluated dynamically; the more it is flagged, the fewer points it will receive. All tasks will start at 500 points and decrease in value with each solution.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Time Limit&lt;/strong&gt; There will be a time limit for the tournament, and all flags must be submitted within that time range. Any contributions received after the deadline will be rejected.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Collaboration&lt;/strong&gt; Participants may cooperate with their colleagues, but they may not work with other teams. Disqualification will come from sharing flags or coordinating with other teams.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Disqualification&lt;/strong&gt; The organizers reserve the right to disqualify any individual or team for any reason they see fit. This includes, but is not limited to, cheating, misbehavior, or breaching the competition&apos;s regulations.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Prizes:&lt;/strong&gt; The organizers will give prizes to the Finals winning teams as well as any other teams that satisfy certain conditions, such as finishing a particular number of tasks or attaining a certain score. The precise awards and criteria will be notified to participants in advance.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Privacy&lt;/strong&gt; Personal information provided by participants will be kept strictly secret and will not be shared with any third parties. The organizers may, however, utilize the identities of participants and team names for publicity reasons.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Online Qualifications:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Platform:&lt;/strong&gt; The platform for the online qualifiers is &lt;a href=&quot;https://ctf.hackfest.tn&quot;&gt;ctf.hackfest.tn&lt;/a&gt;. All participants must utilize the same platform and adhere to the guidelines supplied by the organizers.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; The the online qualifications will be from the 10th of June 2023 at 02 PM (local time zone) to  the 11th of June 2023 at 08 AM (local time zone)&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Duration:&lt;/strong&gt; The the online qualifications will be 18 hours CTF. Within this time limit, participants must complete as many tasks as possible.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Qualification Verification&lt;/strong&gt;In order to participate in the final round, qualifying alone does not constitute confirmation to attend. The organizers reserve the right to approve or disapprove participation in the finals, regardless of qualifying status.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Internet Connectivity:&lt;/strong&gt; Participants are responsible for having a reliable internet connection and dealing with any technological difficulties that emerge during the tournament. The organizers shall not be held responsible for any technological difficulties encountered by participants&apos; ends.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Onsite Finals:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; The onsite finals will take place in &lt;a href=&quot;/#map&quot;&gt;El Ghazala Technopark&lt;/a&gt;. Please follow the &lt;a href=&quot;/#directions&quot;&gt;directions&lt;/a&gt; to get to the event location. All competitors have to be physically present. Any specific instructions will be communicated to the qualifying teams beforehand.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Time:&lt;/strong&gt; The the online qualifications will be from the 23rd of June 2023 at 7 PM (CEST) to the 24th of June 2023 at 7 AM (CEST)&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Duration:&lt;/strong&gt; The onsite finals will last 12 hours. Within this time limit, participants must complete as many tasks as possible.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Equipment:&lt;/strong&gt; Participants should come with:
+&lt;ul&gt;
+&lt;li&gt;A computer and its power cord, including power adapters if necessary&lt;/li&gt;
+&lt;li&gt;A variety of USB cables, including USB to Micro USB cable&lt;/li&gt;
+&lt;li&gt;A multiplug outlet&lt;/li&gt;
+&lt;li&gt;A smartphone (optional, but recommended)&lt;/li&gt;
+&lt;li&gt;Bluetooth dongle (if not supported by laptop)&lt;/li&gt;
+&lt;li&gt;Wifi dongle (if not supported by laptop)&lt;/li&gt;
+&lt;li&gt;Bus Pirate, or Hydrabus (optional, but recommended)&lt;/li&gt;
+&lt;li&gt;Soldering iron (optional, but recommended)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Accommodation and Transportation:&lt;/strong&gt; Accommodation during the onsite finals and transportation expenses is not covered by the event.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Food and Drink:&lt;/strong&gt; The organizers may supply food and drink during the onsite finals, however this is not guaranteed and may incur extra fees. Participants may bring their own food and drinks, but any consumption must not interfere with the competition or other participants, and they must keep the area clean; any found misbehavior may result in disqualification.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Dress Code:&lt;/strong&gt; The competition requires that participants dress suitably. The organizers may impose a dress code, and competitors who do not follow it may be refused access to the tournament.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; Participants must follow any security measures implemented by the organizers, such as security checks or bags inspections. Weapons and illicit substances, for example, will not be permitted within the tournament location.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Access to Information:&lt;/strong&gt; During the onsite finals, participants may be given access to certain information or resources. Participants are only permitted to use this information for the purposes of the competition and are not permitted to share it with anyone outside of their team.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Liability:&lt;/strong&gt; During the onsite finals, participants are responsible for their own safety and well-being. The organizers assume no responsibility for any injuries, accidents, or damages that occur during the tournament.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Challenges Format:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Jeopardy Format:&lt;/strong&gt; Both the online qualifying and the onsite finals will have jeopardy-style tasks. This implies that each task will be allocated a point value, and teams will receive points for completing each challenge successfully.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Challenge Categories:&lt;/strong&gt; The challenges will be divided into different categories, which may include but are not limited to cryptography, reverse engineering, web exploitation, binary exploitation, digital forensics, miscellaneous. The exact categories and number of challenges in each category will be communicated to the participants beforehand.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Challenge Difficulty:&lt;/strong&gt; The challenges will be designed to be progressively more difficult: Easy, Medium, Hard.&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Team Rankings:&lt;/strong&gt; Teams will be ranked according to their total point total. If there is a tie, the team that completed the challenges in the first time will be ranked higher.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;</content><author><name></name></author><category term="2023" /><category term="rules" /><summary type="html">CTF Rules This year&apos;s Hackfest has a new format. The event is divided into two stages: Quals and Finals. Qualifications will consist of a range of online security tasks that will test participants&apos; security skills in a Jeopardy style, and from this stage, only 15 finalist teams are going to compete in the Finals, which will take place on June 23rd. General rules</summary></entry><entry><title type="html">Code of Conduct</title><link href="http://0.0.0.0:4000/conduct/" rel="alternate" type="text/html" title="Code of Conduct" /><published>2021-09-17T00:00:00+02:00</published><updated>2021-09-17T00:00:00+02:00</updated><id>http://0.0.0.0:4000/codeofconduct</id><content type="html" xml:base="http://0.0.0.0:4000/conduct/">&lt;section class=&quot;content-section bg-light&quot; id=&quot;about&quot;&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;
+            &lt;div class=&quot;col-lg-10 mx-auto&quot;&gt;
+	    &lt;h2&gt;Code of Conduct&lt;/h2&gt;
+	    &lt;p&gt;
+	    We expect all participants, sponsors, partners, friends, visitors and the Hackfest staff to know and follow this Code of Conduct. These rules apply to the Hackfest conference, CTF, workshops venues and related social events. If a participant does not respect this code of conduct, the Hackfest staff may take any action they deem appropriate. This includes a warning, expulsion from the event with no refund (if applicable), or reporting their behavior to the local law enforcement.
+	    &lt;/p&gt;
+	    
+	    &lt;h2&gt;&lt;i class=&quot;fas fa-thumbs-up&quot;&gt;&lt;/i&gt; Expected behaviors&lt;/h2&gt;
+	     Expected behavior of attendees include, but is &lt;i&gt;not limited&lt;/i&gt; to, the following:
+
+	     &lt;ul&gt;
+	     &lt;li&gt;Treat others with respect and dignity;&lt;/li&gt;
+	     &lt;li&gt;Treat them fairly and without unfair or illegal discrimination;&lt;/li&gt;
+	     &lt;li&gt;Do not offend others with foul language, anti-social behavior or discriminatory behavior;&lt;/li&gt;
+	     &lt;li&gt;Treat the environment with respect. Do not use, misplace books in the library;&lt;/li&gt;
+	     &lt;li&gt;Do not interfere with other people enjoyment of the facilities or activities;&lt;/li&gt;
+	     &lt;li&gt;Do not engage in activity or behavior likely to bring the Hackfest organization into disrepute;&lt;/li&gt;
+	     &lt;li&gt;Comply with the reasonable requests of the Hackfest staff;&lt;/li&gt;
+	     &lt;li&gt;Respect the confidentiality of others;&lt;/li&gt;
+	     &lt;li&gt;Use the Hackfest event resources responsibly and honestly;&lt;/li&gt;
+	     &lt;li&gt;Do not act dishonestly or with intent to commit fraud;&lt;/li&gt;
+	     &lt;li&gt;Do not attack any other machine/device that ones specifically designated for the CTF;&lt;/li&gt;
+	     &lt;li&gt;Do not intentionally prevent other teams from flagging;&lt;/li&gt;
+	     &lt;li&gt;Do not attack the CTF scoreboard;&lt;/li&gt;
+	     &lt;li&gt;Return Hackfest equipment you borrow as soon as possible, or at most, before the end of the event.&lt;/li&gt;
+	     &lt;/ul&gt;
+
+	     &lt;h2&gt;&lt;i class=&quot;fas fa-minus-circle&quot;&gt;&lt;/i&gt; Anti-harassment&lt;/h2&gt;
+	     &lt;p&gt;
+	     Participants asked to stop any harassing behavior are expected to comply immediately. Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, nationality, or religion, sexual images in public spaces, deliberate intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of workshops, challenges or other events, inappropriate physical contact, and unwelcome sexual attention.
+	     &lt;/p&gt;
+	     &lt;p&gt;
+	     As this is a security challenge, we would like to note that the &lt;i&gt;hacks created during the Capture the Flag contest or the badges submitted to the Badge Contest&lt;/i&gt; are equally subject to the anti-harassment policy.
+	     &lt;/p&gt;
+	     &lt;p&gt;
+	     Sponsors, partners and authorized visitors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Sponsor representatives (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise, create a sexualized environment. If you are being harassed or if you notice that someone else is being harassed, or have any other concerns, please contact any member of Hackfest staff immediately. Hackfest staff will be willing to help participants contact any local security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event. We value your attendance.
+	     &lt;/p&gt;
+
+	     &lt;h2&gt;&lt;i class=&quot;fas fa-camera&quot;&gt;&lt;/i&gt; Photography and video&lt;/h2&gt;
+	     &lt;p&gt;
+	     Pictures or videos of individuals or small groups are forbidden without explicit permission.
+	     Screenshots of participant&apos;s laptops are also forbidden without explicit permission.
+	     &lt;/p&gt;
+	     &lt;p&gt;
+	     Pictures or videos of challenges or badges are &lt;i&gt;welcome and authorized&lt;/i&gt;.
+	     &lt;/p&gt;
+	     &lt;p&gt;
+	     &lt;i&gt;Some challenges or badges may use a camera&lt;/i&gt;. The camera will be clearly visible and identifiable. We expect people who do not want to be filmed not to walk in front of the camera, otherwise, it may be interpreted as an informal acknowledgment.
+	     &lt;/p&gt;
+	    &lt;/div&gt;
+	    &lt;/div&gt;
+	    &lt;/div&gt;
+	    &lt;/section&gt;</content><author><name></name></author><category term="2021" /><category term="code" /><category term="conduct" /><summary type="html">Code of Conduct We expect all participants, sponsors, partners, friends, visitors and the Hackfest staff to know and follow this Code of Conduct. These rules apply to the Hackfest conference, CTF, workshops venues and related social events. If a participant does not respect this code of conduct, the Hackfest staff may take any action they deem appropriate. This includes a warning, expulsion from the event with no refund (if applicable), or reporting their behavior to the local law enforcement. Expected behaviors Expected behavior of attendees include, but is not limited to, the following:</summary></entry></feed>

@@ -2,7 +2,7 @@
 
   <div class="container text-center masthead-content">
     <div class="p-3  bg-danger text-white">
-      Mark your calendars! Hackfest 2024 is scheduled for April 20th, 2024, at Elghazela Technopark. Stay tuned!
+      Mark your calendars! Hackfest 2025 is scheduled for 30th April - 1 Mai, 2025, at Elghazela Technopark. Stay tuned!
     </div>
 
     <h1 class="text-white mb-1" style="font-family: 'DotGothic16', sans-serif; ">Hackfest</h1>
@@ -15,9 +15,23 @@
         Out More</button>
     </div>
     <div class="p-1 mt-1">
-      <a href="https://docs.google.com/forms/d/1O5BRBqPsPbZcbEKcs6KuT5XXshClkVOkj40uAruby-0/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR2pUmQUlLbiK-sDor3Pt5vvCJVLcdySejgXdw9bCqvTQRDn0uhxIdPRDoM_aem_AdMJeSAsHoZWNINKMFeMmb5gytj2a3SyQHiIZJ4IzAnPhh2xn9NaaAhrYsKnrq-C0U1430S_omXtun74shx3Ks2u&edit_requested=true">
-        <button id="eventbrite-widget-modal-trigger-662466915377" type="button"
-          class="btn btn-dark btn-md w-10">Register</button></a>
+      {% assign now = site.time | date: '%s' %}
+      {% assign open_date = page.registration_open_date | date: '%s' %}
+    
+      {% if now >= open_date %}
+        <!-- Button is ACTIVE (clickable) -->
+        <a href="https://docs.google.com/forms/d/1O5BRBqPsPbZcbEKcs6KuT5XXshClkVOkj40uAruby-0/viewform?fbclid=IwZXh0bgNhZW0CMTAAAR2pUmQUlLbiK-sDor3Pt5vvCJVLcdySejgXdw9bCqvTQRDn0uhxIdPRDoM_aem_AdMJeSAsHoZWNINKMFeMmb5gytj2a3SyQHiIZJ4IzAnPhh2xn9NaaAhrYsKnrq-C0U1430S_omXtun74shx3Ks2u&edit_requested=true">
+          <button id="registerButton" type="button" class="btn btn-dark btn-md w-10">
+            Register
+          </button>
+        </a>
+      {% else %}
+        <!-- Button is DISABLED (unclickable) -->
+        <button id="registerButton" type="button" class="btn btn-dark btn-md w-10" disabled style="opacity: 0.6; cursor: not-allowed;">
+          Register
+        </button>
+        <p class="text-muted small mt-1">Registration opens on <strong>21-04-2025</strong></p>
+      {% endif %}
     </div>
   </div>
 

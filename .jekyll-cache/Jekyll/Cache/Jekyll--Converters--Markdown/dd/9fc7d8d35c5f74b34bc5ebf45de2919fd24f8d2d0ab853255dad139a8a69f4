@@ -1,0 +1,114 @@
+I"Æ<section class="content-section bg-light sponsors" id="sponsors">
+  <div class="container">
+	<h2>Past Sponsors</h2>
+<p>
+We would like to acknowledge and thank our sponsors from past editions for their generous support and contributions to Hackfest.
+</p>
+    <div class="row">
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/sifaris.jpg" class="img-fluid" alt="Sifaris" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/cytekia.png" class="img-fluid" alt="Cytekia" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/ooredoo.png" class="img-fluid" alt="Ooredoo" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/s2t.png" class="img-fluid" alt="SMART TUNISIAN TECHNOPARKS" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/supcom.png" class="img-fluid" alt="SUPCOM" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/nextstep.png" class="img-fluid" alt="Next Step IT" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/ati.png" class="img-fluid" alt="ATI" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/satoripop.png" class="img-fluid" alt="Satoripop" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/poste.png" class="img-fluid" alt="La Poste Tunisienne" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/atb.png" class="img-fluid" alt="ATB" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/bna.png" class="img-fluid" alt="BNA" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/hat.png" class="img-fluid" alt="Hat Web Security" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/lpi.png" class="img-fluid" alt="LPI Maghreb" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/natilait.png" class="img-fluid" alt="Natilait" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/boga.png" class="img-fluid" alt="Boga" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/adsup.jpg" class="img-fluid" alt="Association des DiplomÃ©s de Sup'Com Tunis" />
+	    </div>
+	  </div>
+        
+	  <div class="col-md-3">
+	    <div class="sponsor-logo">
+	      <img src="/images/sponsors/tunivisions.png" class="img-fluid" alt="Tunivsions" />
+	    </div>
+	  </div>
+    
+     </div>
+  </div>
+</section>
+:ET

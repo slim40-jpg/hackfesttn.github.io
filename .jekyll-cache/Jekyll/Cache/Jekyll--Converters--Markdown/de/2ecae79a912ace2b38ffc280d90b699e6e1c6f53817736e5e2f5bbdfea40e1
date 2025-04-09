@@ -1,0 +1,110 @@
+I"°$<section class="content-section bg-light" id="rules">
+<div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto">
+	    <h2>CTF Rules</h2>
+            This year's Hackfest has a new format. The event is divided into two stages: Quals and Finals. Qualifications will consist of a range of online security tasks that will test participants' security skills in a Jeopardy style, and from this stage, only 15 finalist teams are going to compete in the Finals, which will take place on June 23rd.
+	    	    <h2>General rules</h2>
+
+<ol>
+<li><strong>Eligibility and Team size</strong> The competition is open to Tunisian teams (composed of only Tunisian persons), who are interested in participating. Each team must have, at least 2 members, and at max 4 members. Each participant must belong to one and only team. All participants must have individuals accounts.</li>
+
+<li><strong>Registration</strong> All participants must register before the start of the competition. Registration should include team name, the full names of all team members, their pseudos, valid phone numbers and valid email addresses. Participants will not be allowed to update their registration informations and any wanted modification should be contacted to the organizers. The organizers reserve the right to verify the authenticity of the information provided and to disqualify any team or participant that provides false or misleading information, inappropriate names or offensive names. </li>
+
+<li><strong>Fair Play</strong> During the tournament, participants are required to behave in a fair and sportsmanlike way at all times. Players are not permitted to attack or disrupt the platform, servers, or the systems of other competitors:
+
+<ul>
+<li>Attacking any machine other than the designated ones,</li>
+<li>DoS Hackfest CTF infrastructure or University,</li>
+<li>Modifying the scoreboard,</li>
+<li>Preventing other teams from flagging intentionally,</li>
+<li>And other forms of misconduct...</li>
+</ul>
+
+are absolutely forbidden and will result in disqualification.
+</li>
+
+<li><strong>Rules</strong> All competitors must follow the competition regulations and comply to <a href="/conduct">The Code of Conduct</a>. Rules modifications will be disclosed in a timely and clear way.</li>
+
+<li><strong>Flag Hoarding:</strong> Participants are not permitted to hoard flags (holding flags unsubmitted for a lengthy period of time or for the very end of the competition). Teams caught hoarding flags may be penalized or disqualified at the organizers' discretion. Flags should be submitted as soon as they are obtained.</li>
+
+<li><strong>Scoring</strong> Points are awarded for solving tasks within the time limit. The winner will be determined by the top three teams with the highest score at the end of the competition. The time of flag submission will be taken into account in order to limit the podium to three winning teams. Each task will be evaluated dynamically; the more it is flagged, the fewer points it will receive. All tasks will start at 500 points and decrease in value with each solution.</li>
+
+<li><strong>Time Limit</strong> There will be a time limit for the tournament, and all flags must be submitted within that time range. Any contributions received after the deadline will be rejected.</li>
+
+<li><strong>Collaboration</strong> Participants may cooperate with their colleagues, but they may not work with other teams. Disqualification will come from sharing flags or coordinating with other teams.</li>
+
+<li><strong>Disqualification</strong> The organizers reserve the right to disqualify any individual or team for any reason they see fit. This includes, but is not limited to, cheating, misbehavior, or breaching the competition's regulations.</li>
+
+<li><strong>Prizes:</strong> The organizers will give prizes to the Finals winning teams as well as any other teams that satisfy certain conditions, such as finishing a particular number of tasks or attaining a certain score. The precise awards and criteria will be notified to participants in advance.</li>
+
+<li><strong>Privacy</strong> Personal information provided by participants will be kept strictly secret and will not be shared with any third parties. The organizers may, however, utilize the identities of participants and team names for publicity reasons.</li>
+</ol>
+
+<h2>Online Qualifications:</h2>
+
+<ol>
+<li><strong>Platform:</strong> The platform for the online qualifiers is <a href="https://ctf.hackfest.tn">ctf.hackfest.tn</a>. All participants must utilize the same platform and adhere to the guidelines supplied by the organizers.</li>
+
+<li><strong>Time:</strong> The the online qualifications will be from the 10th of June 2023 at 02 PM (local time zone) to  the 11th of June 2023 at 08 AM (local time zone)</li>
+
+<li><strong>Duration:</strong> The the online qualifications will be 18 hours CTF. Within this time limit, participants must complete as many tasks as possible.</li>
+
+<li><strong>Qualification Verification</strong>In order to participate in the final round, qualifying alone does not constitute confirmation to attend. The organizers reserve the right to approve or disapprove participation in the finals, regardless of qualifying status.</li>
+
+<li><strong>Internet Connectivity:</strong> Participants are responsible for having a reliable internet connection and dealing with any technological difficulties that emerge during the tournament. The organizers shall not be held responsible for any technological difficulties encountered by participants' ends.</li>
+</ol>
+
+<h2>Onsite Finals:</h2>
+
+<ol>
+<li><strong>Location:</strong> The onsite finals will take place in <a href="/#map">El Ghazala Technopark</a>. Please follow the <a href="/#directions">directions</a> to get to the event location. All competitors have to be physically present. Any specific instructions will be communicated to the qualifying teams beforehand.</li>
+
+<li><strong>Time:</strong> The the online qualifications will be from the 23rd of June 2023 at 7 PM (CEST) to the 24th of June 2023 at 7 AM (CEST)</li>
+
+<li><strong>Duration:</strong> The onsite finals will last 12 hours. Within this time limit, participants must complete as many tasks as possible.</li>
+
+<li><strong>Equipment:</strong> Participants should come with:
+<ul>
+<li>A computer and its power cord, including power adapters if necessary</li>
+<li>A variety of USB cables, including USB to Micro USB cable</li>
+<li>A multiplug outlet</li>
+<li>A smartphone (optional, but recommended)</li>
+<li>Bluetooth dongle (if not supported by laptop)</li>
+<li>Wifi dongle (if not supported by laptop)</li>
+<li>Bus Pirate, or Hydrabus (optional, but recommended)</li>
+<li>Soldering iron (optional, but recommended)</li>
+</ul>
+</li>
+
+<li><strong>Accommodation and Transportation:</strong> Accommodation during the onsite finals and transportation expenses is not covered by the event.</li>
+
+<li><strong>Food and Drink:</strong> The organizers may supply food and drink during the onsite finals, however this is not guaranteed and may incur extra fees. Participants may bring their own food and drinks, but any consumption must not interfere with the competition or other participants, and they must keep the area clean; any found misbehavior may result in disqualification.</li>
+
+<li><strong>Dress Code:</strong> The competition requires that participants dress suitably. The organizers may impose a dress code, and competitors who do not follow it may be refused access to the tournament.</li>
+
+<li><strong>Security:</strong> Participants must follow any security measures implemented by the organizers, such as security checks or bags inspections. Weapons and illicit substances, for example, will not be permitted within the tournament location.</li>
+
+<li><strong>Access to Information:</strong> During the onsite finals, participants may be given access to certain information or resources. Participants are only permitted to use this information for the purposes of the competition and are not permitted to share it with anyone outside of their team.</li>
+
+<li><strong>Liability:</strong> During the onsite finals, participants are responsible for their own safety and well-being. The organizers assume no responsibility for any injuries, accidents, or damages that occur during the tournament.</li>
+</ol>
+
+<h3>Challenges Format:</h3>
+
+<ol>
+<li><strong>Jeopardy Format:</strong> Both the online qualifying and the onsite finals will have jeopardy-style tasks. This implies that each task will be allocated a point value, and teams will receive points for completing each challenge successfully.</li>
+
+<li><strong>Challenge Categories:</strong> The challenges will be divided into different categories, which may include but are not limited to cryptography, reverse engineering, web exploitation, binary exploitation, digital forensics, miscellaneous. The exact categories and number of challenges in each category will be communicated to the participants beforehand.</li>
+
+<li><strong>Challenge Difficulty:</strong> The challenges will be designed to be progressively more difficult: Easy, Medium, Hard.</li>
+
+<li><strong>Team Rankings:</strong> Teams will be ranked according to their total point total. If there is a tie, the team that completed the challenges in the first time will be ranked higher.</li>
+</ol>
+
+
+</div>
+</div>
+</div>
+</section>
+:ET
