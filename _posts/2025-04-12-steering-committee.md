@@ -20,7 +20,7 @@ permalink: /steering-committee/
         </p>
         <ul>
           <li><strong>Strategic Direction</strong>: Define Hackfest’s long-term vision and development roadmap</li>
-          <li><strong>Governance</strong>: Select and validate the annual Organizing Committee (OC)</li>
+          <li><strong>Governance</strong>: Select and validate the annual <a href="{{ site.baseurl }}/organizing-committee">Organizing Committee (OC)</a></li>
           <li><strong>Challenge Oversight</strong>: Ensure quality, originality, and fairness of CTF content</li>
           <li><strong>Ethics and Integrity</strong>: Uphold transparency, fairness, and adherence to ethical standards</li>
           <li><strong>Partnerships</strong>: Foster relationships with academic, industrial, and community stakeholders</li>
