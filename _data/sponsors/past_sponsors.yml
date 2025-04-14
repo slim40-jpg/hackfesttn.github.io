@@ -3,6 +3,26 @@
   logo: sifaris.jpg
   category:
 
+- name: Forvia
+  link:
+  logo: forvia.png
+  category:
+
+- name: Trustable
+  link:
+  logo: trustable.png
+  category:
+
+- name: Aws
+  link:
+  logo: aws.png
+  category:
+
+- name: Actia
+  link:
+  logo: actia.png
+  category:
+
 - name: Cytekia
   link:
   logo: cytekia.png

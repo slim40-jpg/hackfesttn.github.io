@@ -3,7 +3,18 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
+/* Replace existing color variables at the top */
+:root {
+  --hackfest-medium: #0a9396;     /* Medium teal for accents */
+  --hackfest-light: #e9f5f9;      /* Light background */
+  --hackfest-accent: #ecb807;     /* Gold accent (keep existing) */
+  --hackfest-text: #ffffff;       /* White text */
+  --hackfest-darktext: #001219;   /* Dark blue text */
+}
 
+.sidebar-nav > .sidebar-brand {
+  background: rgba(195, 224, 5, 0.5);
+}
 body,
 html {
   width: 100%;
@@ -11,12 +22,17 @@ html {
 }
 
 body {
-  font-family: 'Urbanist', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
+  background-color: var(--hackfest-darktext);
+  color:#fff;
+}
+.btn-xl:hover {
+  color: var(--hackfest-accent);
 }
 
 .btn-md {
@@ -37,17 +53,32 @@ body {
   text-transform: uppercase;
 }
 
-h1,
-h2,
-h3,
+h1 {
+  color: var(--hackfest-accent) !important;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700; /* Bold */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+h2 , h3 {
+  color: rgba(76, 109, 5, 0.553) !important;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400; /* Bold */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 h4,
 h5,
 h6 {
-  font-weight: 700;
+  font-weight: 400;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--hackfest-accent);
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(225, 249, 6, 0.955);
+  background-color: var(--hackfest-darktext) !important;
 }
 
 /* Map */
@@ -74,17 +105,14 @@ h6 {
   height: 50px;
   text-align: center;
   color: white;
-  background: rgba(52, 58, 64, 0.5);
+  background: var(--hackfest-darktext);
   line-height: 45px;
 }
 
 .scroll-to-top:focus,
 .scroll-to-top:hover {
-  color: white;
-}
-
-.scroll-to-top:hover {
-  background: #343a40;
+  background: var(--hackfest-darktext);
+  color: var(--hackfest-accent);
 }
 
 .scroll-to-top i {
@@ -100,8 +128,8 @@ h6 {
   height: auto;
   padding-top: 4rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/hackfest-6.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/hackfest-6.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(59, 77, 6, 0.155)), to(rgba(75, 113, 8, 0.532))), url("../img/hackfest-8.jpg");
+  background: linear-gradient(90deg, rgba(138, 168, 5, 0.164) 50%, rgba(91, 113, 4, 0.219) 100%), url("../img/hackfest-8.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,7 +143,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(90deg, rgba(44, 57, 4, 0.108) 50%, rgba(91, 133, 8, 0.378) 100%);
   z-index: 1;
   /* Place the overlay behind the content */
 }
@@ -127,8 +155,8 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/hackfest-6.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/hackfest-6.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(8, 71, 22, 0.099)), to(rgba(84, 93, 5, 0.203))), url("../img/hackfest-8.jpg");
+  background: linear-gradient(90deg, rgba(49, 75, 13, 0.137) 50%, rgba(64, 76, 3, 0.148) 100%), url("../img/hackfest-8.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,6 +173,7 @@ h6 {
   margin: 0;
   padding: 0;
   z-index: 3;
+  color: gold;
 
 }
 
@@ -159,6 +188,7 @@ h6 {
 
   .masthead h1 {
     font-size: 5.5rem;
+    color: gold;
   }
 }
 
@@ -173,7 +203,8 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #0c5f7f;
+  background-color: var(--hackfest-darktext) !important;
+  color: #fff;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -189,14 +220,19 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: var(--hackfest-light);
   padding: 15px;
+  background-color: var(--hackfest-darktext);
+}
+.sidebar-nav li.sidebar-nav-item a:hover {
+  color: var(--hackfest-accent);
+  background-color: var(--hackfest-darktext);
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  color: var(--hackfest-accent);
+  background: var(--hackfest-darktext);
 }
 
 .sidebar-nav li a:active,
@@ -219,8 +255,8 @@ h6 {
 }
 
 .sidebar-nav>.sidebar-brand a:hover {
-  color: #fff;
-  background: none;
+  color: var(--hackfest-accent);
+  background: var(--hackfest-darktext);
 }
 
 #sidebar-wrapper.active {
@@ -237,24 +273,21 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  color: var(--hackfest-light);
+  background: var(--hackfest-darktext) !important;
   line-height: 50px;
   z-index: 999;
 }
 
 .menu-toggle:focus,
 .menu-toggle:hover {
-  color: #fff;
-}
-
-.menu-toggle:hover {
-  background: #343a40;
+  color: var(--hackfest-accent) !important;
+  background-color: var(--hackfest-darktext) !important;
 }
 
 .service-icon {
   background-color: #fff;
-  color: #0c364a;
+  color: var(--hackfest-accent);
   height: 7rem;
   width: 7rem;
   display: block;
@@ -283,7 +316,7 @@ h6 {
 .portfolio-item {
   display: block;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   max-width: 530px;
   margin: auto auto 1rem;
 
@@ -292,15 +325,15 @@ h6 {
 .portfolio-item img {
   height: 20rem;
   width: 100%;
+  opacity: 1;
+  clip-path: inset(0px) !important;
 }
 
 .portfolio-item .caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: transparent;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -308,7 +341,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: var(--hackfest-accent);
   margin: auto 2rem 2rem;
 }
 
@@ -329,7 +362,7 @@ h6 {
   }
 
   .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -webkit-transition: -webkit-clip-path 0.5s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
   }
@@ -344,75 +377,62 @@ h6 {
 
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
+    -webkit-clip-path: inset(0px) !important;
+    clip-path: inset(0px) !important;
   }
 
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(0px) !important;
+    clip-path: inset(0px) !important;
   }
 
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    background-color: var(--hackfest-darktext);
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
   }
 }
 
 /**************************************************footer*****************************************/
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  background-color: var(--hackfest-darktext);
 }
 
 footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #0c364a;
-  -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  background-color: var(--hackfest-darktext);
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
+  background-color: var(--hackfest-darktext);
 }
 
 a {
-  color: #ecb807;
+  /* color: var(--hackfest-accent) !important */;
   font-weight: 800;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #155d74;
+  color: var(--hackfest-accent) !important;
   font-weight: 800;
 }
 
+/* Primary buttons (main CTA) */
 .btn-primary {
-  background-color: #0c5f7f !important;
-  border-color: #0c5f7f !important;
-  color: #fff !important;
+  background-color: var(--hackfest-darktext) !important;
+  border-color: var(--hackfest-darktext) !important;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+.btn-primary:hover {
+  background-color: #325a0a4e !important;
+  border-color: #3b540a41 !important;
 }
 
+/* Secondary buttons (accent) */
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
+  background-color: var(--hackfest-accent) !important;
+  border-color: var(--hackfest-accent) !important;
 }
 
 .btn-secondary:hover,
@@ -423,25 +443,37 @@ a:active {
 }
 
 .btn-dark {
-  color: #fff !important;
+  color: #ffffff;
 }
-
+.btn-dark:hover {
+  color: var(--hackfest-accent);
+  background-color: var(--hackfest-darktext);
+}
 .btn {
-  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(24, 194, 21, 0.552);
+  box-shadow: 0px 3px 3px 0px rgba(59, 77, 5, 0.232);
   font-weight: 700;
 }
 
 .bg-primary {
-  background-color: #0c364a !important;
+  background-color: var(--hackfest-darktext) !important;
 }
 
 .text-primary {
-  color: #0c364a !important;
+  color: var(--hackfest-darktext) !important;
+}
+
+/* Update event list colors */
+.event-list>li>time {
+  background-color: var(--hackfest-darktext);
+}
+
+.event-list>li:nth-child(even)>time {
+  background-color: var(--hackfest-darktext);
 }
 
 .text-secondary {
-  color: #ecb807 !important;
+  color: var(--hackfest-accent) !important;
 }
 
 .text-lightdark {
@@ -449,10 +481,13 @@ a:active {
 }
 
 .category .fa {
-  color: #0c5f7f;
+  color: var(--hackfest-darktext);
   font-size: 38px;
+  box-shadow: var(--hackfest-accent);
 }
-
+.category .fa:hover {
+  color: var(--hackfest-accent);
+}
 .demo {
   padding: 100px 0;
 }
@@ -477,7 +512,7 @@ card,
 
 .our-team .pic:before {
   content: "";
-  background: #299ec8;
+  background: #222e0294;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -629,7 +664,7 @@ card,
 }
 
 .our-team .team-layer a:hover {
-  color: #299ec8;
+  color: var(--hackfest-darktext);
 }
 
 .our-team .post {
@@ -648,7 +683,7 @@ card,
 @charset "utf-8";
 
 .sponsors {
-  background: white !important;
+  background: var(--hackfest-darktext) !important;
 }
 
 .sponsors img {
@@ -674,10 +709,10 @@ card,
   -ms-flex-align: center;
   align-items: center;
   /*border: 1px solid #d6eaff;*/
-  overflow: hidden;
-  background: #fff;
-  height: 160px;
-  width: 65%;
+  overflow:visible;
+  background: none !important; 
+  height: 200px;
+  width: 100%;
 }
 
 /* Schedule */
@@ -706,7 +741,7 @@ card,
 }
 
 .event-list>li:nth-child(even)>time {
-  background-color: #0c5f7f;
+  background-color: var(--hackfest-darktext);
 }
 
 .event-list>li>time>span {
@@ -798,31 +833,16 @@ card,
 .linkedin a {
   display: block;
   width: 100%;
-  color: rgb(75, 110, 168) !important;
+  color: var(--hackfest-darktext) !important;
+}
+.twitter:hover a ,
+.facebook:hover a ,
+.linkedin:hover a 
+{
+  color: var(--hackfest-accent) !important;
+  background-color: var(--hackfest-darktext) !important;
 }
 
-.twitter a {
-  color: rgb(79, 213, 248) !important;
-}
-
-.linkedin a {
-  color: #0e76a8 !important;
-}
-
-.facebook:hover a {
-  color: rgb(255, 255, 255) !important;
-  background-color: rgb(75, 110, 168) !important;
-}
-
-.twitter:hover a {
-  color: rgb(255, 255, 255) !important;
-  background-color: rgb(79, 213, 248) !important;
-}
-
-.linkedin:hover a {
-  color: rgb(255, 255, 255) !important;
-  background-color: #0e76a8 !important;
-}
 
 @media (min-width: 768px) {
   .event-list>li {
@@ -904,7 +924,7 @@ card,
 }
 
 .masthead .bg-danger {
-  background-color: rgba(11, 58, 75, 0.8) !important;
+  background-color: rgba(47, 68, 5, 0.366) !important;
   margin-bottom: 6rem;
 }
 
