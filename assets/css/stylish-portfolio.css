@@ -81,10 +81,6 @@ h6 {
   background-color: var(--hackfest-darktext) !important;
 }
 
-/* Map */
-.map {
-  height: 30rem;
-}
 
 @media (max-width: 992px) {
   .map {
@@ -313,6 +309,9 @@ h6 {
   max-width: 30rem;
 }
 
+section .portfolio {
+  background-color: var(--hackfest-darktext);
+}
 .portfolio-item {
   display: block;
   position: relative;
@@ -341,7 +340,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: var(--hackfest-accent);
+  color: gold !important; text-shadow: 0 0 5px rgba(255, 215, 0, 0.7),0 0 10px rgba(255, 215, 0, 0.5);animation: pulse 2s infinite;
   margin: auto 2rem 2rem;
 }
 
@@ -713,9 +712,8 @@ card,
   background: none !important; 
   height: 200px;
   width: 100%;
+  box-shadow: var(--hackfest-accent);
 }
-
-/* Schedule */
 
 .event-list {
   list-style: none;
@@ -931,7 +929,6 @@ card,
 .program-header {
   text-align: left;
 }
-
 
 .event-location {
   margin-left: 5%;
