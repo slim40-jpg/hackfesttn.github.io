@@ -506,7 +506,7 @@ card,
 }
 
 .our-team .pic {
-  height: 315px;
+  /*height: 315px;*/
 }
 
 .our-team .pic:before {
@@ -732,10 +732,10 @@ card,
   display: inline-block;
   width: 100%;
   color: rgb(255, 255, 255);
-  background-color: #0c5f7f;
   padding: 5px;
   text-align: center;
   text-transform: uppercase;
+  background-color: var(--hackfest-darktext);
 }
 
 .event-list>li:nth-child(even)>time {
