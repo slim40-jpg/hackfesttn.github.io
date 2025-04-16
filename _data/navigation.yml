@@ -1,0 +1,71 @@
+# main links
+main:
+
+  - title: Home
+    url: /
+
+  - title: Word from the Founder
+    url: /founder/
+  
+  - title: Host
+    url: /#host
+
+  - title: How to participate
+    url: /#participate
+
+  - title: Sponsors
+    url: /#sponsors
+
+  - title: Steering Committee
+    url: /steering-committee
+
+  - title: Organizing Committee
+    url: /#who
+
+  - title: CTF Rules
+    url: /rules/
+
+  - title: Code of Conduct
+    url: /conduct/
+
+  - title: Map
+    url: /#map
+    
+  - title: Archive
+    url: /archive/
+
+# page links
+page:
+  - title: Home
+    url: /
+
+  - title: About
+    children:
+      - title: Host
+        url: /#host
+  
+      - title: Word from the Founder
+        url: /founder/
+        
+      - title: Steering Committee
+        url: /steering-committee
+    
+      - title: Organizing Committee
+        url: /#who        
+    
+  - title: CTF
+    children:
+      - title: How to participate
+        url: /#participate
+    
+      - title: Rules
+        url: /rules/
+  
+      - title: Code of Conduct
+        url: /conduct/
+
+  - title: Sponsors
+    url: /#sponsors
+
+  - title: Archive
+    url: /archive/

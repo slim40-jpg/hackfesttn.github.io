@@ -1,45 +1,40 @@
-<a class="menu-toggle rounded" href="{{ site.url }}">
-    <i class="fas fa-bars"></i>
-</a>
-<nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-        <li class="sidebar-brand">
-            <a class="js-scroll-trigger" href="#page-top">Hackfest</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/#">Home</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/founder/">Word from the Founder</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/#host">Host</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/#participate">How to participate</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/#sponsors">Sponsors</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/steering-committee">Steering Committee</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/#who">Organizing Committee</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/#map">Map</a>
-        </li>
+<nav class="navbar navbar-expand-lg navbar-hf">
+ <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="/">{{ site.title }}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            {% assign navigation = site.data.navigation["page"] %}
+            {% for nav in navigation %}
+                <li class="nav-item{% if nav.children != null %} dropdown{% endif %}">
+                    {% if nav.url %}
+                        <a class="nav-link{% if nav.children != null %} dropdown-toggle{% endif %}" href="{{ nav.url | relative_url }}" {% if nav.children != null %}id="navbarDropdown{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>
+                            {{ nav.title }}
+                            {% if nav.children != null %}
+                                <span class="caret"></span>
+                            {% endif %}
+                        </a>
+                    {% else %}
+                        <span class="nav-link{% if nav.children != null %} dropdown-toggle{% endif %}" {% if nav.children != null %}id="navbarDropdown{{ forloop.index }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"{% endif %}>
+                            {{ nav.title }}
+                            {% if nav.children != null %}
+                                <span class="caret"></span>
+                            {% endif %}
+                        </span>
+                    {% endif %}
 
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/rules/">CTF Rules</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/conduct/">Code of Conduct</a>
-        </li>
-        <li class="sidebar-nav-item">
-            <a class="js-scroll-trigger" href="{{ site.baseurl }}/archive/">Archive</a>
-        </li>
-
-    </ul>
+                    {% if nav.children != null %}
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown{{ forloop.index }}">
+                        {% for child in nav.children %}
+                            <a class="dropdown-item" href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
 </nav>

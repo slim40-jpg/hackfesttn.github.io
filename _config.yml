@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Hackfest
-email: hackfestctf@gmail.com
+email: contact@hackfest.tn
 description: Tunisia's National Cybersecurity Competition
 
 keywords: CTF, hackfest, tunisia, security
@@ -22,7 +22,7 @@ keywords: CTF, hackfest, tunisia, security
 #baseurl: "https://hackfesttn.github.io" # the subpath of your site, e.g. /blog
 #url: "https://hackfesttn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  hackfesttn
+github_username: hackfesttn
 # Build settings
 markdown: kramdown
 theme: minima

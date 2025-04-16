@@ -15,6 +15,7 @@
 .sidebar-nav > .sidebar-brand {
   background: rgba(195, 224, 5, 0.5);
 }
+
 body,
 html {
   width: 100%;
@@ -24,7 +25,6 @@ html {
 body {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
@@ -40,8 +40,8 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .content-section-heading h2 {
@@ -407,14 +407,14 @@ footer.footer .social-link:hover {
 
 a {
   /* color: var(--hackfest-accent) !important */;
-  font-weight: 800;
+  /*font-weight: 800;*/
 }
 
 a:hover,
 a:focus,
 a:active {
   color: var(--hackfest-accent) !important;
-  font-weight: 800;
+  /*font-weight: 800;*/
 }
 
 /* Primary buttons (main CTA) */
@@ -932,4 +932,32 @@ card,
 
 .event-location {
   margin-left: 5%;
+}
+
+.navbar-hf {
+    background-color: var(--hackfest-darktext) !important;
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar-hf .navbar-brand,
+.navbar-hf .nav-link {
+    color: #ffffff;
+}
+.navbar-hf .nav-link:hover {
+    color: #ffcc00;
+}
+.navbar-hf .dropdown-menu {
+    background-color: var(--hackfest-darktext);
+}
+.navbar-hf .dropdown-item {
+    color: #ffffff;
+}
+.navbar-hf .dropdown-item:hover {
+    color: #ffcc00;
+    background-color: transparent;
+}
+.navbar-hf .nav-link {
+}
+
+.bg-light {
+	background-color: #fff !important;
 }

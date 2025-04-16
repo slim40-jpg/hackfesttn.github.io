@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Steering Committee"
 tags: steering committee
 permalink: /steering-committee/

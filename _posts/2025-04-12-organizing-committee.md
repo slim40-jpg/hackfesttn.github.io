@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Organizing Committee"
 tags: organizing committee
 permalink: /organizing-committee/
