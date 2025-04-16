@@ -8,6 +8,31 @@
   logo: cytekia.png
   category:
 
+- name: Forvia
+  link:
+  logo: forvia.png
+  category:
+
+- name: MMB IT Consulting
+  link:
+  logo: MMB%20IT%20Consulting.png
+  category:
+
+- name: Actia
+  link:
+  logo: actia.png
+  category:
+
+- name: Trustable
+  link:
+  logo: trustable.png
+  category:
+
+- name: Amazon Web Services
+  link:
+  logo: aws.png
+  category:
+
 - name: Ooredoo
   link:
   logo: ooredoo.png
