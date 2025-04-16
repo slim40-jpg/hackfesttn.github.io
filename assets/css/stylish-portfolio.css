@@ -682,7 +682,7 @@ card,
 @charset "utf-8";
 
 .sponsors {
-  background: var(--hackfest-darktext) !important;
+  background: #fff !important; /* Must be always white */
 }
 
 .sponsors img {

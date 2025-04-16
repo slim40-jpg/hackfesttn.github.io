@@ -304,42 +304,15 @@ title: Hackfest | National Cybersecurity Competition
     </p>
     <div class="container bg-white sponsors">
       <div class="row">
-       
-        <div class="col-md-3">
-          <div class="sponsor-logo">
-            <img src="/images/sponsors/supcom.png" class="img-fluid" alt="Sup'Com">
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="sponsor-logo">
-            <img src="/images/sponsors/adsup.png" class="img-fluid" alt="Association des Diplomés de Sup'Com Tunis">
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="sponsor-logo">
-            <img src="/images/sponsors/actia.png" class="img-fluid" alt="Association des Diplomés de Sup'Com Tunis">
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="sponsor-logo">
-            <img src="/images/sponsors/Pwn&Patch Logo white.png" class="img-fluid" alt="Association des Diplomés de Sup'Com Tunis">
-          </div>
-        </div>
-
-        <div class="col-md-3">
-          <div class="sponsor-logo">
-            <img src="/images/sponsors/ss2t.png" class="img-fluid" alt="s2t">
-          </div>
-        </div>
-        
-      </div>
-      
-      <a href="/sponsors/" class="btn btn-xl btn-dark mr-4 mb-4">Past sponsors</a>
-
+        {% for sponsor in site.data.sponsors.hackfest9 %}
+    	  <div class="col-md-3">
+    	    <div class="sponsor-logo">
+    	      <img src="/images/sponsors/{{sponsor.logo}}" class="img-fluid" alt="{{sponsor.name}}">
+    	    </div>
+    	  </div>
+        {% endfor %}
   </div>
+        <a href="/sponsors/" class="btn btn-xl btn-dark mr-4 mb-4">Past sponsors</a>
 </section>
 
 <!-- Who -->

@@ -1,0 +1,24 @@
+- name: Actia
+  link:
+  logo: actia.png
+  category:
+
+- name: SMART TUNISIAN TECHNOPARKS
+  link:
+  logo: s2t.png
+  category:
+
+- name: SUPCOM
+  link:
+  logo: supcom.png
+  category:
+
+- name: Association des Diplomés de Sup'Com Tunis
+  link:
+  logo: adsup.jpg
+  category:
+
+- name: Pwn & Patch
+  link:
+  logo: pwnpatch.png
+  category:
