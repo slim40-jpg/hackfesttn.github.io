@@ -22,6 +22,7 @@ permalink: /organizing-committee/
         <h4 class="mt-5 mb-4">🛠️ Organizing Committees (2015–2024)</h4>
 
         <!-- Hackfest 2024 -->
+        {% for commitee in site}
         <div class="mb-4">
           <h5 class="text-primary">Hackfest 2024 Organizing Committee</h5>
           <ul class="pl-3">
